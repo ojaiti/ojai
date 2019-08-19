@@ -1,10 +1,31 @@
 /* Variables */
+:root{
+    --prColor:#df8d2f;
+    --seColor: #f0c23c;
+    --colorWhite: #fff;
+
+}
+.bg-main{
+    background: var(--prColor);
+    color: var(--colorWhite);
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+
+
+}
+.row-flex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
 .bg-orange{
     background: #f0c23c;
     color: #fff;
    }
 .c-orange{
-     color:  #f0c23c;
+     color: var(--colorWhite);
    }
 
 /* alinea a los extremos izquierda y derecha */
