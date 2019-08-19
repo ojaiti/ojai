@@ -14,6 +14,7 @@
 
 
 }
+/* reutilizables */
 .row-flex{
     width: 100%;
     height: auto;
@@ -29,7 +30,12 @@
    }
 
 /* alinea a los extremos izquierda y derecha */
-
+.txt-j{
+    text-align: justify;
+}
+.txt-c{
+    text-align: center;
+}
 .spce-b{
     display: flex ;
     justify-content: space-between ;

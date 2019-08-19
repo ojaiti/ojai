@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keyword" content="ojai, huevo, carne, cerdo"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" >
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -11,9 +12,9 @@
 </head>
 <body>
 <header>
-  <div class="bg-main row-flex">
+  <!-- <div class="bg-main row-flex">
     <span id="fecha" >Lunes 19 de agosto del 2019</span>
-  </div>
+  </div> -->
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light pt-0" id="navbar">
 <div class="col-lg-10 row mx-auto spce-b" >
@@ -46,7 +47,7 @@
         UN EQUIPO COMPROMETIDO
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">GENTE OJAI</a>
+          <a class="dropdown-item" href="gente.php">GENTE OJAI</a>
           <a class="dropdown-item" href="#">BOLSA DE TRABAJO</a>
           <a class="dropdown-item" href="#">CONTACTO DE VENTAS</a>
           <a class="dropdown-item" href="#">CONTACTO DE COMPRAS</a>
