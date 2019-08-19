@@ -1,7 +1,7 @@
 <?php include 'includes/templates/header.php'?>
 <section class="col-lg-10 mx-auto pt-5 spce-c">
         <span class="content-titles">
-        <h3 align="center"  class="title-center">HISTORIA</h3>
+        <h3 class="title-center txt-center">HISTORIA</h3>
         </span>
 </section>
 
@@ -17,7 +17,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
 
 <section class="col-lg-10 mx-auto pt-3 spce-c">
         <span class="content-titles">
-        <h3 align="center"  class="title-center">NUESTROS VALORES</h3>
+        <h3 class="title-center txt-c">NUESTROS VALORES</h3>
         </span>
 </section>
 <div class="col-lg-10 mx-auto pt-5">
