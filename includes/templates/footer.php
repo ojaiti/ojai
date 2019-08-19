@@ -60,9 +60,7 @@
         <!-- Content -->
         <h6 class="text-uppercase font-weight-bold">Empresa</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
+        <p>Nos compremetemos a brindar un producto de calidad y el mejor precio, para que cada hogar tenga una comida aceptable y de calidad</p>
 
       </div>
       <!-- Grid column -->
@@ -74,17 +72,15 @@
         <h6 class="text-uppercase font-weight-bold">Productos</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a href="#!">MDBootstrap</a>
+          <a href="#!">Huevo</a>
         </p>
         <p>
-          <a href="#!">MDWordPress</a>
+          <a href="#!">Cerdo</a>
         </p>
         <p>
-          <a href="#!">BrandFlow</a>
+          <a href="#!">Camaron</a>
         </p>
-        <p>
-          <a href="#!">Bootstrap Angular</a>
-        </p>
+        
 
       </div>
       <!-- Grid column -->
@@ -96,17 +92,15 @@
         <h6 class="text-uppercase font-weight-bold">Enlaces</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a href="#!">Your Account</a>
+          <a href="#!">Promociones</a>
         </p>
         <p>
-          <a href="#!">Become an Affiliate</a>
+          <a href="#!">Ofertas</a>
         </p>
         <p>
-          <a href="#!">Shipping Rates</a>
+          <a href="#!">Ojai mart</a>
         </p>
-        <p>
-          <a href="#!">Help</a>
-        </p>
+        
 
       </div>
       <!-- Grid column -->
