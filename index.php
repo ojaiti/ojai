@@ -14,7 +14,7 @@
       <img class="d-inline w-100" src="http://www.ojaialimentos.com.mx/img/slide_home/ban4.png" alt="Slide One">
       <!--Captions for the slides go here -->
         <div class="carousel-caption text-success d-none d-sm-block">
-        <h1 class="h3">El Sabor en familia</h1>
+        <h1 class="h3">El Sabor es mejor en familia</h1>
         <p class="text-light">Another caption line goes here
         <button class="btn btn-outline-primary btn-lg">More info</button>
         </p>
