@@ -5,16 +5,18 @@
     --colorWhite: #fff;
 
 }
+/*Reutilizables*/
+.btn-pri{
+    background: var(--prColor);
+    color: #fff;
+}
 .bg-main{
     background: var(--prColor);
     color: var(--colorWhite);
     margin: 0 auto;
     padding: 10px;
     text-align: center;
-
-
 }
-/* reutilizables */
 .row-flex{
     width: 100%;
     height: auto;
@@ -115,4 +117,12 @@ nav{
   } */
   .quitarCopyright{
       display: none !important;
+  }
+
+  /*bolsa*/
+  .form-g{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
