@@ -48,7 +48,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="gente.php">GENTE OJAI</a>
-          <a class="dropdown-item" href="#">BOLSA DE TRABAJO</a>
+          <a class="dropdown-item" href="bolsa.php">BOLSA DE TRABAJO</a>
           <a class="dropdown-item" href="#">CONTACTO DE VENTAS</a>
           <a class="dropdown-item" href="#">CONTACTO DE COMPRAS</a>
           

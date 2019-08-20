@@ -27,7 +27,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
     <div class="card-body">
       <h5 class="card-title">Honestidad:</h5>
       <p class="card-text">Actuar de forma congruente con uno mismo, con la organización y con la sociedad.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      
     </div>
   </div>
   <div class="card">
@@ -36,7 +36,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
       <h5 class="card-title">Responsabilidad:
 </h5>
       <p class="card-text">Cumplir cabalmente con los compromisos adquiridos.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      
     </div>
   </div>
   <div class="card">
@@ -44,7 +44,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
     <div class="card-body">
       <h5 class="card-title">Disciplina:</h5>
       <p class="card-text">Actuar de acuerdo a las reglas establecidas por nuestra empresa..</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      
     </div>
   </div>
   <div class="card">
@@ -54,7 +54,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
       <p class="card-text">Conducir nuestros actos cuidando los intereses de la organización.
 
 </p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      
     </div>
   </div>
 </div> 
@@ -65,7 +65,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
     <div class="card-body">
       <h5 class="card-title">Trabajo en equipo:</h5>
       <p class="card-text">Integrar los Esfuerzos individuales para  el logro de los objetivos organizacionales.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      
     </div>
   </div>
   <div class="card">
@@ -74,7 +74,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
       <h5 class="card-title">Perseverancia:
 </h5>
       <p class="card-text">Superar siempre los obstáculos para  alcanzar el éxito.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      
     </div>
   </div>
   <div class="card">
@@ -82,7 +82,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
     <div class="card-body">
       <h5 class="card-title">Actitud de servicio:</h5>
       <p class="card-text">Exceder las expectativas en nuestros  clientes internos y externos.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      
     </div>
   </div>
   
@@ -101,7 +101,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
     <div class="card-body">
       <h5 class="card-title">MISIÓN</h5>
       <p class="card-text">Nuestra misión es colocar en el mercado productos alimenticios certificados, garantizando la satisfacción de nuestros clientes, personal y accionistas.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      
     </div>
   </div> <!-- Fin card -->
   <div class="card">
@@ -109,7 +109,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
     <div class="card-body">
       <h5 class="card-title">VISIÓN</h5>
       <p class="card-text">Nuestra visión es ser una empresa de clase mundial que genere valor a su entorno.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      
     </div>
   </div> <!-- Fin card -->
 </div>
