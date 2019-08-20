@@ -1,7 +1,7 @@
 
 <?php require 'includes/templates/header.php'?>
 
-<div class="container pt-4">
+<div class="container pt-4 pr">
 <div id="bs4-slide-carousel" class="carousel slide" data-ride="carousel" >
   <ol class="carousel-indicators">
     <li data-target="#bs4-slide-carousel" data-slide-to="0" class="active"></li>
