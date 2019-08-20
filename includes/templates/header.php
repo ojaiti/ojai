@@ -15,7 +15,7 @@
   <!-- <div class="bg-main row-flex">
     <span id="fecha" >Lunes 19 de agosto del 2019</span>
   </div> -->
-
+<div class="espacio92"></div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light pt-0" id="navbar">
 <div class="col-lg-10 row mx-auto spce-b" >
 

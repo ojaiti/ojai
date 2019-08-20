@@ -83,7 +83,6 @@
         
 
       </div>
-      <!-- Grid column -->
 
       <!-- Grid column -->
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -91,19 +90,12 @@
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Enlaces</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <a href="#!">Promociones</a>
-        </p>
-        <p>
-          <a href="#!">Ofertas</a>
-        </p>
-        <p>
-          <a href="#!">Ojai mart</a>
-        </p>
+        <p><a href="#!">Promociones</a></p>
+        <p> <a href="#!">Ofertas</a></p>
+        <p> <a href="#!">Ojai mart</a></p>
         
 
       </div>
-      <!-- Grid column -->
 
       <!-- Grid column -->
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -139,11 +131,9 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
-<script type="text/javascript">
-	FreshWidget.init("", {"queryString": "&widgetType=popup&captcha=yes", "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Contacto", "buttonColor": "white", "buttonBg": "#006063", "alignment": "4", "offset": "235px", "formHeight": "500px", "captcha": "yes", "url": "https://ojaialimentos.freshdesk.com"} );
-</script>
+    
+    <!-- contacto soporte -->
+ 
 
 <script src="assets/js/app.js"></script>
 <script src="assets/js/fecha.js"></script>
