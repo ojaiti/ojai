@@ -37,6 +37,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="huevo.php">HUEVO</a>
           <a class="dropdown-item" href="cerdo.php">CERDO</a>
+          
           <a class="dropdown-item" href="camaron.php">CAMARÓN</a>
 
      
@@ -49,8 +50,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="gente.php">GENTE OJAI</a>
           <a class="dropdown-item" href="bolsa.php">BOLSA DE TRABAJO</a>
-          <a class="dropdown-item" href="#">CONTACTO DE VENTAS</a>
-          <a class="dropdown-item" href="#">CONTACTO DE COMPRAS</a>
+         
           
       </li>
       <li class="nav-item dropdown">
@@ -63,16 +63,21 @@
         DISTRIBUCIONES
         </a>
       </li>
-      <li class="nav-item dropdown">
-       
+      <li class="nav-item dropdown text-right">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        CONTACTO
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="huevo.php">CONTACTO DE VENTAS</a>
+          <a class="dropdown-item" href="cerdo.php">cONTACTO DE COMPRAS</a>
+
+     
+          
       </li>
+      
     </ul>
 
-    <div class="my-2 my-lg-0">
-    <a class="nav-link" href="contacto.php" role="button"   aria-expanded="false">
-    <i class="fas fa-envelope-open-text"></i>  CONTACTO
-        </a>
-    </div>
+    
   </div>
   </div>
 
