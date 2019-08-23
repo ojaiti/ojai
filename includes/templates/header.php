@@ -68,7 +68,7 @@
         CONTACTO
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="huevo.php">CONTACTO DE VENTAS</a>
+          <a class="dropdown-item" href="bolsa.php">CONTACTO DE VENTAS</a>
           <a class="dropdown-item" href="cerdo.php">cONTACTO DE COMPRAS</a>
 
      
