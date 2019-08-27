@@ -20,7 +20,41 @@
   
 })();
  */
+mail.style.display = 'none';
+(function(){
 
+
+ /* Botones formulario */
+
+let form = document.getElementById("form");
+ let enviar = document.getElementById("enviar");
+let mail =  document.getElementById("mail");
+mail.style.display = 'none';
+
+let nombre = document.getElementById('nombre'),
+    correo = document.getElementById('correo'),
+    telefono = document.getElementById('tel')
+    ciudad = document.getElementById('ciudad'),
+    pais = document.getElementById('pais'),
+    mensaje = document.getElementById('mensaje');
+form.addEventListener('submit', function(e){
+if(nombre.value == '' || nombre.length ==  0 ||){
+  alert('no puedes seguir');
+}
+if()
+
+  e.preventDefault();
+});
+
+enviar.addEventListener('click', function(){
+  document.getElementById("enviar").style.display = "none";
+  mail.style.display = 'inline-block';
+});
+
+mail.addEventListener('click', function(){
+  document.getElementById("mail").style.display = "none";
+  enviar.style.display = 'inline-block';
+});
       
 var lastScrollTop = 0;
 var navbar = document.getElementById("navbar");
@@ -40,4 +74,14 @@ window.addEventListener("scroll", function(){
    lastScrollTop = st;
    espacio92.style.display = 'none';
 
+
+
+
+
+
+
 }, false);
+
+})();
+
+

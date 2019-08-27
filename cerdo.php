@@ -77,5 +77,4 @@ Dos de nuestras plantas se encuentran en el estado de Sonora y una más en el es
       
     </div>
 </div>
-
 <?php include 'includes/templates/footer.php'?>
