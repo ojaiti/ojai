@@ -5,6 +5,10 @@
     --colorWhite: #fff;
 
 }
+/* Ocultar btn email */
+#mail{
+    display: none;
+}
 /*Reutilizables*/
 .btn-pri{
     background: var(--prColor);

@@ -8,7 +8,7 @@
 <div class="row spce-c pt-5 m-3 txt-j">
     <div class="col-lg-10 spce-c">
         <div class="col-lg-8">
-        <form class="form-horizontal" action="includes/funciones/bolsaRegistro.php" method="post">
+        <form class="form-horizontal" id="form" action="includes/funciones/bolsaRegistro.php" method="post">
     
             <!-- Name input-->
             <div class="form-group">
@@ -30,7 +30,7 @@
             <div class="form-group">
               <label class="col-md-3 control-label" for="tel">Telefono:</label>
               <div class="col-md-9">
-                <input id="tel" name="tel" type="tel" placeholder="Escribe tu telefono" class="form-control">
+                <input id="tel" name="tel" type="number" placeholder="Escribe tu telefono" class="form-control">
               </div>
             </div>
             <!-- Ciudad -->
@@ -61,7 +61,8 @@
             <!-- enviar -->
             <div class="form-group">
               <div class="col-md-12 text-left">
-                <button type="submit" class="btn btn-pri btn-lg">Enviar</button>
+                <button type="submit" id="enviar" class="btn btn-pri btn-lg">Enviar</button>
+                <a class="btn btn-success" id="mail" href="mailto:javierfelixuts@gmail.com?cc=javierantoniofelixtorres@gmail.com;javierfelixuts@gmail.com&subject=Asunto%20con%20espacios&body=Este%20es%20el%20cuerpo%20del%20mensaje&body=Escribe aquí si tienes preguntas "">Enviar mail completo</a>
               </div>
             </div>
           </form>
