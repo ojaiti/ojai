@@ -113,6 +113,6 @@
   
   </div>
 </div>
-</div> -->
+</div> 
 
 <?php require 'includes/templates/footer.php'?>
