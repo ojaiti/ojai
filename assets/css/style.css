@@ -59,6 +59,7 @@
     bottom:-10px;
     height: 10px;
     background: #df8d2f;
+    max-width: 230px;
 }
 .content-titles {
     position: relative;
@@ -129,4 +130,34 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .content-general{
+      width: 100%;
+      height: auto;
+      min-height: 100vh;
+  }
+  .contenedor-items{
+      padding: 10px;
+      width: 80%;
+      height: auto;
+      min-height: 10vh;
+      background: #eaeae9;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+  }
+  .item{
+      background: #fff;
+      padding: 10px;
+  }
+  @media only screen and (max-width: 750px) {
+    .contenedor-items {
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .contenedor-items {
+        grid-template-columns: 1fr;
+    }
   }
