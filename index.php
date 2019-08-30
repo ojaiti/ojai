@@ -68,11 +68,51 @@
   </a>  
 </div>
 
-
-
-
-
        
-
   </div> <!-- Fin container -->
+
+
+  <section class="col-lg-10 mx-auto pt-5 spce-c mb-4">
+        <span class="content-titles">
+        <h3 align="center"  class="title-center">DELICIAS PARA EL HOGAR</h3>
+        </span>
+</section>
+
+
+<div class="content-general">
+  <div class="contenedor-items">
+    <div class="item"><h4>Asado de lomo relleno</h4>
+    <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2011/12.jpg" alt="genetica">
+    </div>
+    <div class="item"><h4>Medallones de mignon de cerdo</h4>
+      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/02.jpg" alt="genetica">
+    </div>
+    <div class="item"><h4>Panini de huevo</h4>
+      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/03.jpg" alt="genetica">
+    </div>
+    <div class="item"><h4>Arroz árabe</h4>
+      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/04.jpg" alt="genetica">
+    </div>
+    <div class="item"><h4>Asado de cerdo al vino</h4>
+      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/05.jpg" alt="genetica">
+    </div>
+    <div class="item"><h4>Tacos ahogados</h4>
+      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/06.jpg" alt="genetica">
+    </div>
+    
+    <div class="item"><h4>Camarones en aguachile</h4>
+      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/07.jpg" alt="genetica">
+    </div>
+    <div class="item"><h1><h4>Medallones de mignon de cerdo</h4></h1>
+      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/08.jpg" alt="genetica">
+    </div>
+    <div class="item"><h4>Medallones de mignon de cerdo</h4>
+      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/09.jpg" alt="genetica">
+    </div>
+    
+  
+  </div>
+</div>
+</div> -->
+
 <?php require 'includes/templates/footer.php'?>
