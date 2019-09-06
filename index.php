@@ -81,7 +81,7 @@
 
 <div class="content-general">
   <div class="contenedor-items">
-    <div class="item"><h4>Asado de lomo relleno</h4>
+<!--     <div class="item"><h4>Asado de lomo relleno</h4>
     <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2011/12.jpg" alt="genetica">
     </div>
     <div class="item"><h4>Medallones de mignon de cerdo</h4>
@@ -99,16 +99,15 @@
     <div class="item"><h4>Tacos ahogados</h4>
       <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/06.jpg" alt="genetica">
     </div>
-    
     <div class="item"><h4>Camarones en aguachile</h4>
       <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/07.jpg" alt="genetica">
     </div>
-    <div class="item"><h1><h4>Medallones de mignon de cerdo</h4></h1>
+    <div class="item"><h1><h4>Huevos al gratin</h4></h1>
       <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/08.jpg" alt="genetica">
     </div>
-    <div class="item"><h4>Medallones de mignon de cerdo</h4>
+    <div class="item"><h4>Medallones a las tres salsas</h4>
       <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/09.jpg" alt="genetica">
-    </div>
+    </div> -->
     
   
   </div>
