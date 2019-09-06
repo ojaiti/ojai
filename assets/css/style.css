@@ -59,8 +59,13 @@
     bottom:-10px;
     height: 10px;
     background: #df8d2f;
-    max-width: 230px;
 }
+@media only screen and (max-width: 710px) {
+.title-center::before{
+    max-width: 230px;
+    
+    }
+  }
 .content-titles {
     position: relative;
 }
@@ -161,3 +166,5 @@ nav{
         grid-template-columns: 1fr;
     }
   }
+
+
