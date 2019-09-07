@@ -42,12 +42,18 @@ menu.forEach(element => {
   console.log(element.nombre);
   template += `
   <div class="item"><h4>${element.nombre}</h4>
-    <img class="p-alimentos" src="assets/img/${element.imagen}" alt="genetica">
+    <img class="p-alimentos" src="assets/img/recetas/${element.imagen}" alt="genetica">
   </div>
   `;
 });
 contenedorItems.innerHTML = template;
-
+let items = document.querySelectorAll('.item');
+items.forEach(item => {
+  item.addEventListener('click', function(){
+    console.log('hola');
+  });
+});
+console.log(items);
 
 })();
 

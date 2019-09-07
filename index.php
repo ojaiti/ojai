@@ -44,17 +44,6 @@
         </div>
       <!--Captions ending here for slide 3-->        
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="http://www.ojaialimentos.com.mx/img/slide_home/ban1.jpg" alt="Slide Three">
-      <!--Captions for the slides go here -->
-        <div class="carousel-caption text-warning d-none d-sm-block">
-        <h5>Sabor en familia</h5>
-        <p class="text-light">Another caption line goes here
-        <button class="btn btn-outline-warning btn-lg">4 info</button>
-        </p>
-        </div>
-      <!--Captions ending here for slide 3-->        
-    </div>
   </div>
   </div>
 
@@ -72,44 +61,15 @@
   </div> <!-- Fin container -->
 
 
-  <section class="col-lg-10 mx-auto pt-5 spce-c mb-4">
-        <span class="content-titles">
-        <h3 align="center"  class="title-center">DELICIAS PARA EL HOGAR</h3>
-        </span>
+<section class="col-lg-10 mx-auto pt-5 spce-c mb-4">
+  <span class="content-titles">
+    <h3 align="center"  class="title-center">DELICIAS PARA EL HOGAR</h3>
+  </span>
 </section>
 
 
 <div class="content-general">
   <div class="contenedor-items">
-<!--     <div class="item"><h4>Asado de lomo relleno</h4>
-    <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2011/12.jpg" alt="genetica">
-    </div>
-    <div class="item"><h4>Medallones de mignon de cerdo</h4>
-      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/02.jpg" alt="genetica">
-    </div>
-    <div class="item"><h4>Panini de huevo</h4>
-      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/03.jpg" alt="genetica">
-    </div>
-    <div class="item"><h4>Arroz árabe</h4>
-      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/04.jpg" alt="genetica">
-    </div>
-    <div class="item"><h4>Asado de cerdo al vino</h4>
-      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/05.jpg" alt="genetica">
-    </div>
-    <div class="item"><h4>Tacos ahogados</h4>
-      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/06.jpg" alt="genetica">
-    </div>
-    <div class="item"><h4>Camarones en aguachile</h4>
-      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/07.jpg" alt="genetica">
-    </div>
-    <div class="item"><h1><h4>Huevos al gratin</h4></h1>
-      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/08.jpg" alt="genetica">
-    </div>
-    <div class="item"><h4>Medallones a las tres salsas</h4>
-      <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/secciones/recetas/2012/09.jpg" alt="genetica">
-    </div> -->
-    
-  
   </div>
 </div>
 </div> 
