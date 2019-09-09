@@ -69,9 +69,12 @@
 
 
 <div class="content-general">
-  <div class="contenedor-items">
+  <div class="contenedor-items"  id="easyPaginate">
   </div>
+  
 </div>
 </div> 
+
+
 
 <?php require 'includes/templates/footer.php'?>

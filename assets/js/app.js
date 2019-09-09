@@ -5,6 +5,7 @@
 var lastScrollTop = 0;
 var navbar = document.getElementById("navbar");
 var espacio92 = document.querySelector('.espacio92');
+
 window.addEventListener("scroll", function(){
    var st = window.pageYOffset || document.documentElement.scrollTop; 
    if (st > lastScrollTop && st > 300){
@@ -34,26 +35,33 @@ const menu = [
   {nombre: 'Tacos ahogados', imagen:'tacosahogados.jpg'},
   {nombre: 'Camarones en aguachile', imagen:'camaronesenchile.jpg'},
   {nombre: 'Huevos al gratin', imagen:'huevosalgratin.jpg'},
-  {nombre: 'Medallones a las tres salsas', imagen:'medallonestressalsas.jpg'}
+  {nombre: 'Medallones a las tres salsas', imagen:'medallonestressalsas.jpg'},
 ];
 let template = '';
 let contenedorItems = document.querySelector('.contenedor-items');
-menu.forEach(element => {
-  console.log(element.nombre);
-  template += `
-  <div class="item"><h4>${element.nombre}</h4>
-    <img class="p-alimentos" src="assets/img/recetas/${element.imagen}" alt="genetica">
-  </div>
-  `;
-});
-contenedorItems.innerHTML = template;
+listaPlatillos();
+function listaPlatillos(){
+    menu.forEach((element, index) => {
+          contenedorItems.innerHTML += `
+          <div class="item"><h4>${element.nombre}</h4>
+            <img class="p-alimentos" src="assets/img/recetas/${element.imagen}" alt="genetica">
+          </div>
+          `;
+    });
+}
+
+
 let items = document.querySelectorAll('.item');
 items.forEach(item => {
   item.addEventListener('click', function(){
     console.log('hola');
   });
 });
-console.log(items);
+
+
+
+
+
 
 })();
 
