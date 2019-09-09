@@ -10,6 +10,9 @@
     display: none;
 }
 /*Reutilizables*/
+.txt-justify{
+    text-align: justify;
+}
 .btn-pri{
     background: var(--prColor);
     color: #fff;
@@ -139,7 +142,7 @@ nav{
   .content-general{
       width: 100%;
       height: auto;
-      min-height: 100vh;
+      min-height: 60vh;
   }
   .contenedor-items{
       padding: 10px;
@@ -166,5 +169,4 @@ nav{
         grid-template-columns: 1fr;
     }
   }
-
 
