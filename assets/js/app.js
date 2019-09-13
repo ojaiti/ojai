@@ -61,6 +61,12 @@ items.forEach(item => {
 });
 }
 
+let btnCustom = document.getElementById('btnCustom').addEventListener('click', function(){
+  let bars = document.querySelectorAll('.b-bar');
+  bars.forEach(element =>{
+    element.classList.toggle('activo');
+  });
+});
 
 
 
