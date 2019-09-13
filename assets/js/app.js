@@ -38,7 +38,9 @@ const menu = [
   {nombre: 'Medallones a las tres salsas', imagen:'medallonestressalsas.jpg'},
 ];
 let template = '';
-let contenedorItems = document.querySelector('.contenedor-items');
+if(document.querySelector('.contenedor-items')){
+  let contenedorItems = document.querySelector('.contenedor-items');
+
 listaPlatillos();
 function listaPlatillos(){
     menu.forEach((element, index) => {
@@ -55,6 +57,14 @@ let items = document.querySelectorAll('.item');
 items.forEach(item => {
   item.addEventListener('click', function(){
     console.log('hola');
+  });
+});
+}
+
+let btnCustom = document.getElementById('btnCustom').addEventListener('click', function(){
+  let bars = document.querySelectorAll('.b-bar');
+  bars.forEach(element =>{
+    element.classList.toggle('activo');
   });
 });
 

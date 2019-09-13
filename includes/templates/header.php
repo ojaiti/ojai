@@ -25,8 +25,14 @@
   <a class="navbar-brand" href="index.php">
     <img src="assets/img/logo.png" alt="" width="200">
   </a>
-  <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler mt-2 btn-custom" id="btnCustom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- <span class="navbar-toggler-icon"></span> -->
+    <div class="menuBurger">
+    <span class="b-bar"></span>
+    <span class="b-bar"></span>
+    <span class="b-bar"></span>
+
+    </div>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -72,7 +78,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="bolsa.php">CONTACTO DE VENTAS</a>
-          <a class="dropdown-item" href="cerdo.php">cONTACTO DE COMPRAS</a>
+          <a class="dropdown-item" href="cerdo.php">CONTACTO DE COMPRAS</a>
 
      
           

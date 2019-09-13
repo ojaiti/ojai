@@ -48,6 +48,7 @@
 .spce-b{
     display: flex ;
     justify-content: space-between ;
+    align-items: center; /* ultima linea que se agrego */
 }
 /* alinea al centro  */
 
@@ -62,6 +63,62 @@
     bottom:-10px;
     height: 10px;
     background: #df8d2f;
+}
+/* Menu hamburguesa */
+.btn-custom{
+    padding: 2px 2px;
+    height: 50px;
+}
+.menuBurger{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.b-bar{
+    width: 30px;
+    height: 2px;
+    background-color: grey;
+    margin: 5px;
+}
+.activo.b-bar:nth-child(2){
+    animation: bar 1s linear;
+    transform: translateX(50px);
+}
+.activo.b-bar:nth-child(1){
+    animation: bar2 1s linear;
+    transform: translateY(12px) rotate(45deg);
+}
+.activo.b-bar:nth-child(3){
+    animation: bar3 1s linear;
+    transform: translateY(-12px) rotate(-45deg);
+}
+@keyframes bar{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(50px);
+        opacity: .5;
+
+    }
+}
+@keyframes bar2{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(12px) rotate(45deg);
+    }
+}
+@keyframes bar3{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-12px)rotate(-45deg);
+    }
 }
 @media only screen and (max-width: 710px) {
 .title-center::before{
@@ -167,6 +224,12 @@ nav{
   @media only screen and (max-width: 600px) {
     .contenedor-items {
         grid-template-columns: 1fr;
+    }
+  }
+
+  @media only screen and (max-width: 1190px) {
+    .navbar-brand {
+        margin: auto;
     }
   }
 
