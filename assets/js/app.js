@@ -38,7 +38,9 @@ const menu = [
   {nombre: 'Medallones a las tres salsas', imagen:'medallonestressalsas.jpg'},
 ];
 let template = '';
-let contenedorItems = document.querySelector('.contenedor-items');
+if(document.querySelector('.contenedor-items')){
+  let contenedorItems = document.querySelector('.contenedor-items');
+
 listaPlatillos();
 function listaPlatillos(){
     menu.forEach((element, index) => {
@@ -57,6 +59,8 @@ items.forEach(item => {
     console.log('hola');
   });
 });
+}
+
 
 
 

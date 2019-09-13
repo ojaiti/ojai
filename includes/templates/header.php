@@ -72,7 +72,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="bolsa.php">CONTACTO DE VENTAS</a>
-          <a class="dropdown-item" href="cerdo.php">cONTACTO DE COMPRAS</a>
+          <a class="dropdown-item" href="cerdo.php">CONTACTO DE COMPRAS</a>
 
      
           
