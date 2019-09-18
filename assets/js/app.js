@@ -27,7 +27,7 @@ window.addEventListener("scroll", function(){
 
 
 const menu = [
-  {nombre: 'Asado de lomo', imagen:'asadodelomo.jpg'},
+  {nombre: 'Asado de lomo', imagen:'asadodelomo.jpg', ingredientes: '1/2 taza de chile chipotle'},
   {nombre: 'Medallones de mignon de cerdo', imagen:'medallonesdecerdo.jpg'},
   {nombre: 'Panini de huevo', imagen:'medallonestressalsas.jpg'},
   {nombre: 'Arroz árabe', imagen:'arrozarabe.jpg'},
@@ -44,11 +44,17 @@ if(document.querySelector('.contenedor-items')){
 listaPlatillos();
 function listaPlatillos(){
     menu.forEach((element, index) => {
+      
           contenedorItems.innerHTML += `
           <div class="item"><h4>${element.nombre}</h4>
             <img class="p-alimentos" src="assets/img/recetas/${element.imagen}" alt="genetica">
-          </div>
+            <p class="parrafo">${element.ingredientes}</p> 
+            </div>
           `;
+    });
+    let parrafos = document.querySelectorAll('.parrafo');
+    parrafos.forEach(ele =>{
+      ele.classList.add('ocultar');
     });
 }
 
@@ -57,6 +63,10 @@ let items = document.querySelectorAll('.item');
 items.forEach(item => {
   item.addEventListener('click', function(){
     console.log('hola');
+    let parrafos = document.querySelectorAll('.parrafo');
+    parrafos.forEach(ele =>{
+      ele.classList.remove('ocultar');
+    });
   });
 });
 }

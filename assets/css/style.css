@@ -216,6 +216,9 @@ nav{
       background: #fff;
       padding: 10px;
   }
+  .item::before{
+      color:#fff;
+  }
   @media only screen and (max-width: 750px) {
     .contenedor-items {
         grid-template-columns: 1fr 1fr;
@@ -233,3 +236,6 @@ nav{
     }
   }
 
+.ocultar{
+    display: none;
+}
