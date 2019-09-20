@@ -135,7 +135,7 @@
     width: 100%;
     z-index: 100;
     animation: slideDown 1s;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 @keyframes slideDown{
     0%{
@@ -150,7 +150,7 @@
     width: 100%;
     z-index: 100;
     height: 92px;
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: 1s;
 }
 .espacio92{
@@ -175,9 +175,16 @@ nav{
     position: relative;
 }
 
+/* Carrusel */
+.sombra{
+    padding: 10px;
+    background: #00000075;
+}
   /* HUEVO */
   img.p-alimentos{
       width: 100% ;
+      max-width: 600px;
+      max-height: 400px;
   }
   ul{
       list-style: none;
@@ -217,6 +224,7 @@ nav{
       padding: 10px;
       overflow: hidden;
   }
+  
   .item::before{
       color:#fff;
   }
@@ -225,7 +233,8 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     z-index: 100;
   }
   @media only screen and (max-width: 750px) {
@@ -246,9 +255,13 @@ nav{
   }
 
   /* Estilos para los items de comida */
+.flex-horizontal{
+      display: flex;
+  }
 .descripcion{
     visibility: hidden;
     transition: 1s;
+    opacity: 0;
     transform: translateX(-300px);
     height: 0;
 }
@@ -263,6 +276,7 @@ nav{
     border-radius: 5px;
     margin-bottom: 10px;
     color: #fff;
+    height: 37px;
 }
 .cerrar{
     display: block;
@@ -272,4 +286,41 @@ nav{
     visibility: visible;
     transform: translateX(0);
     height: auto;
+    opacity: 1;
+    margin-left: 20px;
 }
+.contentPreparacion{
+    margin-left: 30px;
+}
+@media only screen and (max-width: 720px) {
+    .contentPreparacion {
+        margin-left: 0;
+    }
+    .itemFixed{
+        font-size: 13px;
+    }
+    .flex-horizontal{
+        flex-direction: column;
+    }
+    .imgScala {
+        width: 60% !important;
+    }
+
+  } 
+.preparacion{
+    overflow: hidden;
+    display: none;
+    max-width: 450px;
+    text-align: justify;
+}
+.mostrar{
+    visibility: visible;
+    display: flex;
+    
+}
+
+@media only screen and (max-width: 720px) {
+    img.p-alimentos {
+        max-height: 160px;
+    }
+  }
