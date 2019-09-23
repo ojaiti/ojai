@@ -10,24 +10,24 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-inline w-100" src="http://www.ojaialimentos.com.mx/img/slide_home/ban4.png" alt="Slide One">
+      <img class="d-inline w-100" src="assets/img/slider/ban1.jpg" alt="Slide One">
       <!--Captions for the slides go here -->
         <div class="carousel-caption text-warning d-none d-sm-block sombra">
         <h1 class="h3">El sabor es mejor en familia</h1>
         <p class="text-light">Ojai lo tiene para ti
-        <button class="btn btn-warning btn-lg">More info</button>
+        <button class="btn btn-warning btn-lg">Leer Mas...</button>
         </p>
         </div>
       <!--Captions ending here for slide 1-->  
    </div>
     <div class="carousel-item">
-      <img class="d-inline w-100" src="http://www.ojaialimentos.com.mx/img/slide_home/ban1.jpg" alt="Slide Two">
+      <img class="d-inline w-100" src="assets/img/slider/ban2.jpg" alt="Slide Two">
       <!--Captions for the slides go here -->
 
         <div class="carousel-caption text-warning d-none d-sm-block sombra">
           <h5>Los mejores alimentos para el hogar</h5>
           <p class="text-light">Ojai lo tiene para ti 
-          <button class="btn btn-warning btn-lg">More info</button>
+          <button class="btn btn-warning btn-lg">Leer Mas...</button>
           </p>
 
         
@@ -35,12 +35,12 @@
       <!--Captions ending here for slide 2-->        
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="http://www.ojaialimentos.com.mx/img/slide_home/ban2.png" alt="Slide Three">
+      <img class="d-block w-100" src="assets/img/slider/ban4.jpg" alt="Slide Three">
       <!--Captions for the slides go here -->
         <div class="carousel-caption text-warning d-none d-sm-block sombra">
         <h5>Alimentos de calidad</h5>
         <p class="text-light">Ojai lo tiene para ti
-        <button class="btn btn-warning btn-lg">More info</button>
+        <button class="btn btn-warning btn-lg">Leer Mas...</button>
         </p>
         </div>
       <!--Captions ending here for slide 3-->        
@@ -61,7 +61,7 @@
   </div> <!-- Fin container -->
 
 
-<section class="col-lg-10 mx-auto pt-5 spce-c mb-4">
+<section class="spce-c pdding-40">
   <span class="content-titles">
     <h3 align="center"  class="title-center">DELICIAS PARA EL HOGAR</h3>
   </span>

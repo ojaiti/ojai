@@ -24,6 +24,12 @@
     padding: 10px;
     text-align: center;
 }
+/* padding */
+.pdding-40{
+    padding: 40px 10px;
+}
+
+
 .row-flex{
     width: 100%;
     height: auto;
