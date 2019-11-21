@@ -8,13 +8,13 @@
 <div class="row spce-c pt-5 m-3 txt-j">
     <div class="col-lg-10 spce-c">
         <div class="col-lg-8">
-        <form class="form-horizontal" id="form" action="includes/funciones/bolsaRegistro.php" method="post">
+        <form class="form-horizontal" id="form" action="email/enviar.php" method="post">
     
             <!-- Name input-->
             <div class="form-group">
               <label class="col-md-3 control-label" for="nombre">Nombre:</label>
               <div class="col-md-9">
-                <input id="nombre" name="nombre" type="text" placeholder="Escribee tu nombre" class="form-control">
+                <input id="nombre" name="nombre" type="text" placeholder="Escribe tu nombre" class="form-control">
               </div>
             </div>
     
@@ -38,7 +38,7 @@
             <div class="form-group">
               <label class="col-md-3 control-label" for="mensaje">Comentarios</label>
               <div class="col-md-9">
-                <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Please enter your message here..." rows="5"></textarea>
+                <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Escribe un breve mensaje..." rows="5"></textarea>
               </div>
             </div>
     
