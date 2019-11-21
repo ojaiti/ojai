@@ -8,7 +8,11 @@ var espacio92 = document.querySelector('.espacio92');
 
 window.addEventListener("scroll", function(){
    var st = window.pageYOffset || document.documentElement.scrollTop; 
-   if (st > lastScrollTop && st > 300){
+   if (st > lastScrollTop && st > 100){
+//obtener la altura de la pantalla
+      var altura = screen.height;
+      console.log(altura);
+     
         espacio92.style.display = 'none';
         navbar.classList.add("styckyNavDown");
    } else {
@@ -275,7 +279,7 @@ document.getElementById("form").addEventListener('submit', function(e){
       document.getElementById("form").reset();
       console.log(xhr.response);
       
-      swal("Mensaje enviado correctamente!", {
+      swal("Correo enviado correctamente!", {
         buttons: false,
         timer: 2000,
       });
