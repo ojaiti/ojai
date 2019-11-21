@@ -11,7 +11,7 @@
 
         <!-- Grid column -->
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 orange">
-          <h6 class="mb-0">Nuestras redes sociales!</h6>
+          <h6 class="mb-0">Nuestras redes sociales</h6>
         </div>
         <!-- Grid column -->
         <div class="col-md-6 col-lg-7 text-center text-md-right"><!-- Grid column -->
@@ -33,7 +33,7 @@
       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
         <!-- Content -->
         <h6 class="text-uppercase font-weight-bold">Empresa</h6>
-        <p class="txt-just">Nos compremetemos a brindar un producto de calidad y el mejor precio, para que cada hogar tenga una comida aceptable y de calidad</p>
+        <p class="txt-just">Nos comprometemos a brindar un producto de calidad y el mejor precio, para que cada hogar tenga una comida aceptable y de calidad</p>
       </div>
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
@@ -66,7 +66,7 @@
         <h6 class="text-uppercase font-weight-bold">Contacto</h6>
         
          <p> <i class="fas fa-home mr-3"></i> Jalisco Norte 519-S Altos entre Yaqui y Mayo</p>
-        <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+        <p><i class="fas fa-envelope mr-3"></i> rh@grupoojai.com</p>
         <p><i class="fas fa-phone mr-3"></i> +52 644-414-91-17</p>
 
       </div><!-- Grid column -->
@@ -83,7 +83,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- contacto soporte -->
  
 

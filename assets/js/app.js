@@ -242,8 +242,50 @@ let btnCustom = document.getElementById('btnCustom').addEventListener('click', f
 
 
 
+document.getElementById("form").addEventListener('submit', function(e){
+  e.preventDefault();
+  console.log('Hola');
+
+  let nombre = document.getElementById("nombre");
+  let correo = document.getElementById("correo");
+  let tel = document.getElementById("tel");
+  let mensaje = document.getElementById("mensaje");
 
 
+  if(nombre.value == "" || correo.value == "" || tel.value == ""|| mensaje.value == ""){
+    swal ( "Error!" ,  "Llenar todos los campos!" ,  "error" );
+  }
+  /* if(!isValidEmail(correo)){
+    swal ( "Error!" ,  "Email no valido!" ,  "error" );
+  }
+ */
+
+  //Enviar los datos por Ajax
+
+  let datos = new FormData();
+  datos.append("nombre", nombre.value);
+  datos.append("correo", correo.value);
+  datos.append("tel", tel.value);
+  datos.append("msj", mensaje.value);
+
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "email/enviar.php", true);
+  xhr.onload = function(e){
+    if(xhr.status == 200){
+      document.getElementById("form").reset();
+      console.log(xhr.response);
+      
+      swal("Mensaje enviado correctamente!", {
+        buttons: false,
+        timer: 2000,
+      });
+      
+    }
+  }
+  xhr.send(datos);
+
+ 
+})
 
 })();
 
