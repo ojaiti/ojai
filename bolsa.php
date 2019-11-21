@@ -33,23 +33,7 @@
                 <input id="tel" name="tel" type="number" placeholder="Escribe tu telefono" class="form-control">
               </div>
             </div>
-            <!-- Ciudad -->
 
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="ciudad">Ciudad:</label>
-              <div class="col-md-9">
-                <input id="ciudad" name="ciudad" type="text" placeholder="Escribe tu ciudad" class="form-control">
-              </div>
-            </div>
-            <!-- Ciudad -->
-
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="pais">País:</label>
-              <div class="col-md-9">
-                <input id="pais" name="pais" type="text" placeholder="Escribe tu país" class="form-control">
-              </div>
-            </div>
-    
             <!-- Comentario -->
             <div class="form-group">
               <label class="col-md-3 control-label" for="mensaje">Comentarios</label>

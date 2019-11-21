@@ -17,9 +17,9 @@
         <div class="col-md-6 col-lg-7 text-center text-md-right"><!-- Grid column -->
             <a class="fb-ic"><i class="fab fa-facebook-f white-text mr-4"> </i></a><!-- Facebook -->
             <a class="tw-ic"><i class="fab fa-twitter white-text mr-4"> </i></a><!-- Twitter -->
-            <a class="gplus-ic"><i class="fab fa-google-plus-g white-text mr-4"> </i></a><!-- Google +-->
-            <a class="li-ic"><i class="fab fa-linkedin-in white-text mr-4"> </i></a><!--Linkedin -->
-            <a class="ins-ic"><i class="fab fa-instagram white-text"> </i></a><!--Instagram-->
+            <!--  <a class="gplus-ic"><i class="fab fa-google-plus-g white-text mr-4"> </i></a>--><!-- Google +-->
+            <!--<a class="li-ic"><i class="fab fa-linkedin-in white-text mr-4"> </i></a>--><!--Linkedin -->
+            <!--<a class="ins-ic"><i class="fab fa-instagram white-text"> </i></a>--><!--Instagram-->
         </div><!-- Grid column -->
       </div><!-- Grid row-->
     </div>
@@ -33,41 +33,39 @@
       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
         <!-- Content -->
         <h6 class="text-uppercase font-weight-bold">Empresa</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>Nos compremetemos a brindar un producto de calidad y el mejor precio, para que cada hogar tenga una comida aceptable y de calidad</p>
+        <p class="txt-just">Nos compremetemos a brindar un producto de calidad y el mejor precio, para que cada hogar tenga una comida aceptable y de calidad</p>
       </div>
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Productos</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        
+        <div class="box">
+
           <p><a href="#!">Huevo</a></p>
           <p><a href="#!">Cerdo</a></p>
           <p><a href="#!">Camaron</a></p>
+          </div>
+
       </div>
 
       <!-- Grid column -->
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+      <!-- <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
-        <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Enlaces</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p><a href="#!">Promociones</a></p>
         <p> <a href="#!">Ofertas</a></p>
         <p> <a href="#!">Ojai mart</a></p>
         
 
-      </div>
+      </div> -->
 
       <!-- Grid column -->
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Contacto</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <i class="fas fa-home mr-3"></i> Jalisco Norte 519-S Altos entre Yaqui y Mayo</p>
+        
+         <p> <i class="fas fa-home mr-3"></i> Jalisco Norte 519-S Altos entre Yaqui y Mayo</p>
         <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
         <p><i class="fas fa-phone mr-3"></i> +52 644-414-91-17</p>
 
