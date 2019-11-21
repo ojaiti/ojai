@@ -38,7 +38,7 @@
          </ul>
     </div>
         <div>
-          <a href="#!" class="font-weight-bold">Sucursal Hermosillo</a>
+          <a href="#!" class="font-weight-bold">Sucursal Veracruz</a>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
               <li>Parque Industrial</li>
