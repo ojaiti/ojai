@@ -48,6 +48,9 @@ h3{
 .mgt-5{
     margin-top: 50px;
 }
+.mgt-2{
+    margin-top: 20px;
+}
 /* Se agrego este fragmento */
 
 .row-flex{
@@ -82,6 +85,23 @@ h3{
     display: flex ;
     justify-content: center ;
 }
+.spce-a{
+    display: flex ;
+    justify-content: space-around ;
+}
+.spce-h{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .fila{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+
+  }
 .title-center::before{
     content: '';
     position: absolute;
@@ -91,6 +111,24 @@ h3{
     background: #f0c23c;
 
 }
+.box{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+/* Grid System */
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media only screen and (max-width: 730px) {
+    .grid-2{
+        display: block;
+    }
+  }
+  /* li{
+      display: inline-block;
+  } */
 /* Menu hamburguesa */
 .btn-custom{
     padding: 2px 2px;

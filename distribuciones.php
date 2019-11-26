@@ -1,8 +1,11 @@
 <?php include 'includes/templates/header.php'?>
+<?php
 
+
+?>
 <section class="col-lg-10 mx-auto pt-5 spce-c">
         <span class="content-titles">
-        <h3 align="center"  class="title-center">DISTRIBUCIONES</h3>
+        <h3 align="center"  class="title-center"><?php echo $name?></h3>
         </span>
 </section>
 
