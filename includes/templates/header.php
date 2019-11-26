@@ -15,6 +15,11 @@
     <title>Ojai Alimentos</title>
 </head>
 <body>
+  <?php
+  
+  $name = "SUCURSALES";
+  ?>
+  
   <div class="sizeOfHeader" id="relleno"></div>
 <header class="posFix" id="header">
   <!-- <div class="bg-main row-flex">
@@ -24,7 +29,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light pt-0" id="navbar">
 <div class="col-lg-10 row mx-auto spce-b" >
 
-  <a class="navbar-brand" href="index.php">
+  <a class="navbar-brand" aria-label="Ojai" href="index.php">
     <img src="assets/img/logo.png" alt="" width="200">
   </a>
   <button class="navbar-toggler mt-2 btn-custom" id="btnCustom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,14 +47,14 @@
       
      
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" aria-label="Productos" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         PRODUCTOS
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="huevo.php">HUEVO</a>
-          <a class="dropdown-item" href="cerdo.php">CERDO</a>
+          <a class="dropdown-item" aria-label="Huevo" href="huevo.php">HUEVO</a>
+          <a class="dropdown-item" aria-label="Cerdo" href="cerdo.php">CERDO</a>
           
-          <a class="dropdown-item" href="camaron.php">CAMARÓN</a>
+          <a class="dropdown-item" aria-label="Camaron" href="camaron.php">CAMARÓN</a>
 
      
           
@@ -59,22 +64,22 @@
         UN EQUIPO COMPROMETIDO
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="gente.php">GENTE OJAI</a>
+          <a class="dropdown-item" aria-label="Gente Ojai" href="gente.php">GENTE OJAI</a>
          
           
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link" href="nosotros.php" role="button"   aria-expanded="false">
+        <a class="nav-link" href="nosotros.php" role="button" aria-label="Nosotros"   aria-expanded="false">
         NOSOTROS
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="distribuciones.php" role="button"   aria-expanded="false">
-        DISTRIBUCIONES
+        <a class="nav-link" href="distribuciones.php" role="button" aria-label="Distribuciones"   aria-expanded="false">
+        <?php echo $name?>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="bolsa.php">
+        <a class="nav-link" aria-label="Contacto" href="bolsa.php">
         CONTACTO
         </a>
         <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
