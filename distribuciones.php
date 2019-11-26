@@ -7,11 +7,11 @@
 </section>
 
 
-<div class="col-md-10 col-lg-10 col-xl-10 pt-5 mx-auto mb-4" data-distribuciones="dist">
+<div class="mgt-5 pdl-3">
     <div class="row spce-c">
         <!-- Links -->
-        <div >
-          <a href="#!" class="font-weight-bold">Sucursal Tijuana</a>
+        <div class="">
+         <h4> Sucursal Tijuana</h4>
           <ul>
               <li>Av. D # 7512</li>
               <li>Fraccionamiento Luna Parks</li>
@@ -20,7 +20,7 @@
          </ul>
         </div>
         <div  >
-          <a href="#!" class="font-weight-bold">Sucursal Hermosillo</a>
+          <h4> Sucursal Hermosillo</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
               <li>Parque Industrial</li>
@@ -28,31 +28,119 @@
               <li>Tel. (662) 251 0790</li>
          </ul>
         </div>
-        <div>
-          <a href="#!" class="font-weight-bold">Sucursal Tijuana</a>
-          <ul>
-              <li>Av. D # 7512</li>
-              <li>Fraccionamiento Luna Parks</li>
-              <li>Tijuana, Baja California.</li>
-              <li>Tel. 664) 689 2603</li>
-         </ul>
-    </div>
-        <div>
-          <a href="#!" class="font-weight-bold">Sucursal Veracruz</a>
+        <div  >
+          <h4> Sucursal Obregón</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
               <li>Parque Industrial</li>
               <li>Hermosillo, Sonora.</li>
               <li>Tel. (662) 251 0790</li>
          </ul>
-    </div>
-
-    </div> 
-
-    <div class="row spce-c">
-        <!-- Links -->
+        </div>
+        <div  >
+          <h4> Sucursal Nogales</h4>
+          <ul>
+              <li>Carretera a Sahuaripa km. 4.5</li>
+              <li>Parque Industrial</li>
+              <li>Hermosillo, Sonora.</li>
+              <li>Tel. (662) 251 0790</li>
+         </ul>
+        </div>
+        <div  >
+          <h4> Sucursal Mexicali</h4>
+          <ul>
+              <li>Carretera a Sahuaripa km. 4.5</li>
+              <li>Parque Industrial</li>
+              <li>Hermosillo, Sonora.</li>
+              <li>Tel. (662) 251 0790</li>
+         </ul>
+        </div>
+        <div  >
+          <h4> Sucursal Ensenada</h4>
+          <ul>
+              <li>Carretera a Sahuaripa km. 4.5</li>
+              <li>Parque Industrial</li>
+              <li>Hermosillo, Sonora.</li>
+              <li>Tel. (662) 251 0790</li>
+         </ul>
+        </div>
+        <div  >
+          <h4> Sucursal Agua prieta</h4>
+          <ul>
+              <li>Carretera a Sahuaripa km. 4.5</li>
+              <li>Parque Industrial</li>
+              <li>Hermosillo, Sonora.</li>
+              <li>Tel. (662) 251 0790</li>
+         </ul>
+        </div>
+        <div  >
+          <h4> Sucursal Caborca</h4>
+          <ul>
+              <li>Carretera a Sahuaripa km. 4.5</li>
+              <li>Parque Industrial</li>
+              <li>Hermosillo, Sonora.</li>
+              <li>Tel. (662) 251 0790</li>
+         </ul>
+        </div>
+        <div  >
+          <h4> Sucursal Mexico</h4>
+          <ul>
+              <li>Carretera a Sahuaripa km. 4.5</li>
+              <li>Parque Industrial</li>
+              <li>Hermosillo, Sonora.</li>
+              <li>Tel. (662) 251 0790</li>
+         </ul>
+        </div>
+        <div  >
+          <h4> Sucursal Acapulco</h4>
+          <ul>
+              <li>Carretera a Sahuaripa km. 4.5</li>
+              <li>Parque Industrial</li>
+              <li>Hermosillo, Sonora.</li>
+              <li>Tel. (662) 251 0790</li>
+         </ul>
+        </div>
+        <div  >
+          <h4> Sucursal Cancun</h4>
+          <ul>
+              <li>Carretera a Sahuaripa km. 4.5</li>
+              <li>Parque Industrial</li>
+              <li>Hermosillo, Sonora.</li>
+              <li>Tel. (662) 251 0790</li>
+         </ul>
+        </div>
+        <div  >
+          <h4> Sucursal Chihuahua</h4>
+          <ul>
+              <li>Carretera a Sahuaripa km. 4.5</li>
+              <li>Parque Industrial</li>
+              <li>Hermosillo, Sonora.</li>
+              <li>Tel. (662) 251 0790</li>
+         </ul>
+        </div>
+        <div  >
+          <h4> Sucursal Cd. Juarez</h4>
+          <ul>
+              <li>Carretera a Sahuaripa km. 4.5</li>
+              <li>Parque Industrial</li>
+              <li>Hermosillo, Sonora.</li>
+              <li>Tel. (662) 251 0790</li>
+         </ul>
+        </div>
+       
         <div >
-          <a href="#!" class="font-weight-bold">Sucursal Obregón</a>
+          <h4> Sucursal Veracruz</h4>
+          <ul>
+              <li>Carretera a Sahuaripa km. 4.5</li>
+              <li>Parque Industrial</li>
+              <li>Hermosillo, Sonora.</li>
+              <li>Tel. (662) 251 0790</li>
+         </ul>
+        </div>
+
+
+        <div >
+         <h4> Sucursal Toluca</h4>
           <ul>
            <li> Miguel alemán 558 sur altos</li>
            <li> Cd . Obregón, Sonora.</li>
@@ -60,7 +148,7 @@
          </ul>
         </div>
         <div  >
-          <a href="#!" class="font-weight-bold">Sucursal Culiacán</a>
+         <h4> Sucursal Tehuacan </h4>
           <ul>
            <li> Calle Segunda locales # 2771 y 2777</li>
             <li>  Mercado de Abastos</li>
