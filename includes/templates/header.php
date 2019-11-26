@@ -7,6 +7,7 @@
     <meta name="author" content="Ojai alimentos">
     <meta name="keyword" content="ojai, huevo, carne, cerdo"> 
 
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" >
@@ -14,7 +15,8 @@
     <title>Ojai Alimentos</title>
 </head>
 <body>
-<header>
+  <div class="sizeOfHeader" id="relleno"></div>
+<header class="posFix" id="header">
   <!-- <div class="bg-main row-flex">
     <span id="fecha" >Lunes 19 de agosto del 2019</span>
   </div> -->
@@ -36,7 +38,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mr-auto center">
       
      
       <li class="nav-item dropdown">

@@ -1,8 +1,8 @@
 <?php
 
-echo 'LLego <br>';
+/* echo 'LLego <br>'; */
 $nombre = $_POST['nombre'];
-$correo =  $_POST['correo'];
+$email =  $_POST['correo'];
 $tel =  $_POST['tel'];
 $message =  $_POST['msj'];
 

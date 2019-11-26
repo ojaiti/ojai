@@ -5,6 +5,9 @@
     --colorWhite: #fff;
 
 }
+h3{
+    color: #df8d2f;
+}
 /* Ocultar btn email */
 #mail{
     display: none;
@@ -17,6 +20,13 @@
     background: var(--prColor);
     color: #fff;
 }
+.mxwd-txt{
+    max-width: 800px;
+    margin: auto;
+}
+.center{
+    margin: auto;
+}
 .bg-main{
     background: var(--prColor);
     color: var(--colorWhite);
@@ -28,7 +38,17 @@
 .pdding-40{
     padding: 40px 10px;
 }
-
+.pdl-3{
+    padding: 0px 30px 0px 30px;
+}
+.pd-3{
+    padding: 30px;
+}
+/* Margin */
+.mgt-5{
+    margin-top: 50px;
+}
+/* Se agrego este fragmento */
 
 .row-flex{
     width: 100%;
@@ -66,9 +86,10 @@
     content: '';
     position: absolute;
     width: 100%;
-    bottom:-10px;
-    height: 10px;
-    background: #df8d2f;
+    bottom: -5px;
+    height: 5px;
+    background: #f0c23c;
+
 }
 /* Menu hamburguesa */
 .btn-custom{
@@ -191,6 +212,7 @@ nav{
       width: 100% ;
       max-width: 600px;
       max-height: 400px;
+      margin: auto;
   }
   ul{
       list-style: none;
@@ -344,9 +366,54 @@ nav{
       display: flex;
       justify-content: space-around;
 }
+
 .txt-just{
     text-align: justify
 }
 .nav-item{
     cursor: pointer;
 }
+
+.posFix{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+}
+.sizeOfHeader{
+    width: 100%;
+}
+
+@media only screen and (max-width: 720px) {
+    .img-100{
+        max-width: 100%;
+        width: 100%;
+    }
+  }
+  @media only screen and (min-width: 720px) {
+    .img-100{
+        width: 49%;
+    }
+  }
+
+/* Para posicionar el footer */
+
+/* html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+  } */
+ 
+ 

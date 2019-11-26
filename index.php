@@ -15,7 +15,7 @@
         <div class="carousel-caption text-warning d-none d-sm-block sombra">
         <h1 class="h3">El sabor es mejor en familia</h1>
         <p class="text-light">Ojai lo tiene para ti
-        <button class="btn btn-warning btn-lg">Leer Mas...</button>
+        
         </p>
         </div>
       <!--Captions ending here for slide 1-->  
@@ -26,8 +26,7 @@
 
         <div class="carousel-caption text-warning d-none d-sm-block sombra">
           <h5>Los mejores alimentos para el hogar</h5>
-          <p class="text-light">Ojai lo tiene para ti 
-          <button class="btn btn-warning btn-lg">Leer Mas...</button>
+          <p class="text-light">Deleita los mejores sabores
           </p>
 
         
@@ -39,8 +38,7 @@
       <!--Captions for the slides go here -->
         <div class="carousel-caption text-warning d-none d-sm-block sombra">
         <h5>Alimentos de calidad</h5>
-        <p class="text-light">Ojai lo tiene para ti
-        <button class="btn btn-warning btn-lg">Leer Mas...</button>
+        <p class="text-light">La mejor calida en carnes
         </p>
         </div>
       <!--Captions ending here for slide 3-->        

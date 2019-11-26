@@ -1,6 +1,9 @@
 
 (function(){
-  
+  //este codigo obtiene la altura del header y se lo asigna al elemento
+  alturaHeader = document.getElementById("header").clientHeight;
+  document.getElementById("relleno").style.height = alturaHeader+"px";
+
  //Animacion para el header al momento de hacer scroll     
 var lastScrollTop = 0;
 var navbar = document.getElementById("navbar");
@@ -8,13 +11,16 @@ var espacio92 = document.querySelector('.espacio92');
 
 window.addEventListener("scroll", function(){
    var st = window.pageYOffset || document.documentElement.scrollTop; 
+   var altura = screen.height;
+   
+   console.log('sr', st);
+   console.log(altura);
+
    if (st > lastScrollTop && st > 100){
 //obtener la altura de la pantalla
-      var altura = screen.height;
-      console.log(altura);
      
         espacio92.style.display = 'none';
-        navbar.classList.add("styckyNavDown");
+        /* navbar.classList.add("styckyNavDown"); */
    } else {
     espacio92.style.display = 'block';
     navbar.classList.remove("styckyNavDown");
@@ -258,13 +264,14 @@ document.getElementById("form").addEventListener('submit', function(e){
 
   if(nombre.value == "" || correo.value == "" || tel.value == ""|| mensaje.value == ""){
     swal ( "Error!" ,  "Llenar todos los campos!" ,  "error" );
-  }
-  /* if(!isValidEmail(correo)){
-    swal ( "Error!" ,  "Email no valido!" ,  "error" );
-  }
- */
+  }else{
 
-  //Enviar los datos por Ajax
+    /* if(!isValidEmail(correo)){
+      swal ( "Error!" ,  "Email no valido!" ,  "error" );
+    }
+    */
+   
+   //Enviar los datos por Ajax
 
   let datos = new FormData();
   datos.append("nombre", nombre.value);
@@ -288,6 +295,7 @@ document.getElementById("form").addEventListener('submit', function(e){
   }
   xhr.send(datos);
 
+}
  
 })
 
