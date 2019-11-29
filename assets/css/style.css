@@ -5,6 +5,12 @@
     --colorWhite: #fff;
 
 }
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 h3{
     color: #df8d2f;
 }
@@ -112,9 +118,9 @@ h3{
 
 }
 .box{
-    padding: 10px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 /* Grid System */
 .grid-2{
@@ -296,10 +302,11 @@ nav{
   }
   .itemFixed{
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    min-height: 80vh;
     height: auto;
     z-index: 100;
   }
@@ -307,6 +314,17 @@ nav{
     .contenedor-items {
         grid-template-columns: 1fr 1fr;
     }
+    .itemFixed{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80%;
+        min-height: 80vh;
+        height: auto;
+        z-index: 100;
+        overflow: scroll;
+      }
   }
   @media only screen and (max-width: 600px) {
     .contenedor-items {
@@ -434,7 +452,12 @@ nav{
         width: 49%;
     }
   }
-
+  @media only screen and (max-width: 486px) {
+    .fila{
+        flex-direction: column;
+    }
+  }
+  
 /* Para posicionar el footer */
 
 /* html {
@@ -453,5 +476,12 @@ nav{
     height: 40px;
     color: white;
   } */
- 
+
+  .juntos{
+      text-align: center;
+      padding: 10px;
+  }
+ footer{
+    width: 100%;
+ }
  

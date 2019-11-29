@@ -13,8 +13,8 @@ window.addEventListener("scroll", function(){
    var st = window.pageYOffset || document.documentElement.scrollTop; 
    var altura = screen.height;
    
-   console.log('sr', st);
-   console.log(altura);
+   /* console.log('sr', st);
+   console.log(altura); */
 
    if (st > lastScrollTop && st > 100){
 //obtener la altura de la pantalla
@@ -251,10 +251,11 @@ let btnCustom = document.getElementById('btnCustom').addEventListener('click', f
 });
 
 
+if(document.getElementById("form")){
 
 document.getElementById("form").addEventListener('submit', function(e){
   e.preventDefault();
-  console.log('Hola');
+ /*  console.log('Hola'); */
 
   let nombre = document.getElementById("nombre");
   let correo = document.getElementById("correo");
@@ -298,6 +299,7 @@ document.getElementById("form").addEventListener('submit', function(e){
 }
  
 })
+}
 
 })();
 
