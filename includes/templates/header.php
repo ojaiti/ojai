@@ -59,7 +59,7 @@
      
           
       </li>
-      <li class="nav-item dropdown">
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         UN EQUIPO COMPROMETIDO
         </a>
@@ -67,10 +67,15 @@
           <a class="dropdown-item" aria-label="Gente Ojai" href="gente.php">GENTE OJAI</a>
          
           
-      </li>
+      </li> -->
       <li class="nav-item dropdown">
         <a class="nav-link" href="nosotros.php" role="button" aria-label="Nosotros"   aria-expanded="false">
         NOSOTROS
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="aviso.php" role="button" aria-label="Nosotros"   aria-expanded="false">
+        AVISO DE PRIVACIDAD
         </a>
       </li>
       <li class="nav-item">
