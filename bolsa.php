@@ -50,7 +50,6 @@
               </div>
             </div>
           </form>
-            <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/slide_cont/equipo.jpg" alt="alimentos">
         </div>
       
     </div>

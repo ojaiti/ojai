@@ -1,6 +1,25 @@
 <?php include 'includes/templates/header.php'?>
 <section class="col-lg-10 mx-auto pt-5 spce-c">
         <span class="content-titles">
+        <h3 class="title-center txt-center">CERTIFICACIONES</h3>
+        </span>
+</section>
+<div class="spce-c">
+<div class="col-lg-7 mgt-2 spce-a">
+  <div class="spce-cc">
+
+    <img class="certificaciones" src="assets/img/SelloTif.png" alt="tipo inspeccion federal">
+  </div>
+ <div class="spce-cc">
+   
+   <img class="certificaciones" src="assets/img/Logo_esr_r.png" alt="empresa socialmente responsable">
+   </div>
+   </div>
+</div>
+
+
+<section class="col-lg-10 mx-auto pt-5 spce-c">
+        <span class="content-titles">
         <h3 class="title-center txt-center">HISTORIA</h3>
         </span>
 </section>
@@ -8,7 +27,9 @@
 <div class="spce-c">
 <div class="col-lg-7 mgt-2">
        <p align="justify"> Ojai se fundó en 1979 como una empresa productora de huevo, pertenece a uno de los grupos con más solidez en la industria pecuaria del estado de sonora que desde sus orígenes se ha caracterizado por su orientación a producir alimentos de calidad.
-En 1984 la empresa incursionó en la industria porcina como productor de cerdo y a finales de la década de los 90´s se decidió invertir en una planta para sacrificar y procesar cortes de alta calidad.
+       </p>
+<p align="justify">       En 1984 la empresa incursionó en la industria porcina como productor de cerdo y a finales de la década de los 90´s se decidió invertir en una planta para sacrificar y procesar cortes de alta calidad.
+</p><p align="justify">
 En el año 2000 la empresa da otro importante paso al adquirir las primeras granjas acuícolas para producir camarón, con lo que se consolidó la tercera línea de productos de la compañía.
 Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón con los más altos estándares de calidad, lo que le ha permitido llegar a una gran parte de la República Mexicana, así como a mercados internacionales en Asia y América.
 </p> </div>
@@ -20,7 +41,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
     <div class="col-lg-7 m-3">
       <div class="grid-2">
 
-          <div class="box box-left">
+          <div class="box box-left box-border">
               <section class="mx-auto pt-3 spce-c">
                   <span class="content-titles">
                   <h3 class="title-center txt-c">MISIÓN</h3>
@@ -32,7 +53,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
                 </div>
           </div> <!-- Fin box -->
 
-          <div class="box box-right">
+          <div class="box box-right box-border">
               <section class="mx-auto pt-3 spce-c">
                   <span class="content-titles">
                   <h3 class="title-center txt-c">VISIÓN</h3>
@@ -50,7 +71,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
 <!-- Fin spec-c -->
 <div class="box box-right">
 
-<section class="col-lg-10 mx-auto pt-3 spce-c">
+<section class="col-lg-10 mx-auto spce-c">
         <span class="content-titles">
         <h3 class="title-center txt-c">NUESTROS VALORES</h3>
         </span>
@@ -78,6 +99,37 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
                 </div>
     </div> <!-- fin box -->     
   </div>
+</div>
+
+<section class="col-lg-10 mx-auto spce-c">
+        <span class="content-titles">
+        <h3 class="title-center txt-c">Gente Ojai</h3>
+        </span>
+</section>
+
+<div class="row spce-c pt-5 m-3 txt-j">
+    <div class="col-lg-10 spce-c">
+        <div class="col-lg-8">
+            <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/slide_cont/equipo.jpg" alt="alimentos">
+            <p class="pt-3" >
+ En Ojai Alimentos buscamos la excelencia en nuestros resultados y forjamos relaciones perdurables basadas en la confianza, 
+ al vivir con intensidad nuestros valores essenciales: Honestidad, Responsabilidad, Disciplina, 
+ Lealtad, Trabajo en equipo, Perseverancia y Actitud de servicio.
+</p>
+<p>
+ Una cultura basada en ello 
+ contribuye a incrementar, de manera sostenible, el valor de la compañía para todos los grupos 
+ de interés: clientes, accionistas, personal y en la comunidad donde nos desarrollamos. 
+ </p>
+ <p>
+ De esta manera podemos asegurar que llevaremos a cabo nuestra Visión y nuestra Misión.
+Sabemos que para lograrlo, cada uno de las personas que trabajamos en la compañía constituye una
+ pieza importante que aporta su esfuerzo, energía y pasión para cumplir cabalmente con la 
+ responsabilidad que le ha sido asignada, así es nuestro equipo y estamos orgullosos de que 
+ basamos el éxito de la empresa en el activo más importante: Nuestra Gente. </p>
+        </div>
+      
+    </div>
 </div>
 
 <!-- <div class="row-flex mgt-5">

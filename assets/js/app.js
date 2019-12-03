@@ -202,7 +202,7 @@ function listaPlatillos(){
     parrafos.forEach(ele =>{
       ele.classList.add('ocultar');
     }); */
-}
+} /* Fin funcion listarPlatillos */
 
 
 let items = document.querySelectorAll('.item');

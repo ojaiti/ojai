@@ -10,10 +10,11 @@
 </section>
 
 
-<div class="mgt-5 pdl-3">
-    <div class="row spce-c">
+<div class="spce-c mgt-5 pdl-3">
+    <div class="row grid-sucursales sucursales">
         <!-- Links -->
-        <div class="">
+        <div>
+         <h1 class="center"> <i class="fas fa-map-marker-alt"></i></h1>
          <h4> Sucursal Tijuana</h4>
           <ul>
               <li>Av. D # 7512</li>
@@ -23,6 +24,7 @@
          </ul>
         </div>
         <div  >
+        <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
           <h4> Sucursal Hermosillo</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
@@ -32,6 +34,8 @@
          </ul>
         </div>
         <div  >
+        <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+
           <h4> Sucursal Obregón</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
@@ -41,7 +45,10 @@
          </ul>
         </div>
         <div  >
-          <h4> Sucursal Nogales</h4>
+        <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+        
+
+          <h4 class="center"> Sucursal Nogales</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
               <li>Parque Industrial</li>
@@ -50,7 +57,10 @@
          </ul>
         </div>
         <div  >
-          <h4> Sucursal Mexicali</h4>
+                <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+
+
+          <h4 class="center"> Sucursal Mexicali</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
               <li>Parque Industrial</li>
@@ -59,7 +69,10 @@
          </ul>
         </div>
         <div  >
-          <h4> Sucursal Ensenada</h4>
+                <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+
+
+          <h4 class="center"> Sucursal Ensenada</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
               <li>Parque Industrial</li>
@@ -68,6 +81,9 @@
          </ul>
         </div>
         <div  >
+                <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+
+
           <h4> Sucursal Agua prieta</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
@@ -77,6 +93,9 @@
          </ul>
         </div>
         <div  >
+                <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+
+
           <h4> Sucursal Caborca</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
@@ -86,6 +105,9 @@
          </ul>
         </div>
         <div  >
+        <h3>        <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+</h3>
+
           <h4> Sucursal Mexico</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
@@ -95,6 +117,9 @@
          </ul>
         </div>
         <div  >
+                <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+
+
           <h4> Sucursal Acapulco</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
@@ -104,6 +129,9 @@
          </ul>
         </div>
         <div  >
+                <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+
+
           <h4> Sucursal Cancun</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
@@ -113,6 +141,9 @@
          </ul>
         </div>
         <div  >
+                <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+
+
           <h4> Sucursal Chihuahua</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
@@ -122,6 +153,9 @@
          </ul>
         </div>
         <div  >
+                <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+
+
           <h4> Sucursal Cd. Juarez</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
@@ -132,6 +166,9 @@
         </div>
        
         <div >
+                <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+
+
           <h4> Sucursal Veracruz</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
@@ -143,6 +180,9 @@
 
 
         <div >
+                <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+
+
          <h4> Sucursal Toluca</h4>
           <ul>
            <li> Miguel alemán 558 sur altos</li>
@@ -151,6 +191,9 @@
          </ul>
         </div>
         <div  >
+                <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
+
+
          <h4> Sucursal Tehuacan </h4>
           <ul>
            <li> Calle Segunda locales # 2771 y 2777</li>
