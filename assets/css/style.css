@@ -12,7 +12,7 @@ html {
     box-sizing: inherit;
   }
 h3{
-    color: #df8d2f;
+    color: var(--prColor);
 }
 /* Ocultar btn email */
 #mail{
@@ -24,7 +24,7 @@ h3{
 }
 .btn-pri{
     background: var(--prColor);
-    color: #fff;
+    color: var(--colorWhite);
 }
 .mxwd-txt{
     max-width: 800px;
@@ -67,8 +67,8 @@ h3{
     justify-content: center;
 }
 .bg-orange{
-    background: #f0c23c;
-    color: #fff;
+    background: var(--seColor);
+    color: var(--colorWhite);
    }
 .c-orange{
      color: var(--colorWhite);
@@ -120,7 +120,7 @@ h3{
     width: 100%;
     bottom: -5px;
     height: 5px;
-    background: #f0c23c;
+    background: var(--seColor);
 
 }
 .box{
@@ -248,6 +248,9 @@ h3{
     height: 92px;
 
 }
+/* .recetaOpen{
+    grid-column: 1 / 4;
+} */
 
 @media only screen and (max-width: 710px) {
     .card-deck .card { 
@@ -275,6 +278,7 @@ nav{
       max-width: 600px;
       max-height: 400px;
       margin: 0 auto;
+      cursor: pointer;
   }
   ul{
       list-style: none;
@@ -310,15 +314,16 @@ nav{
       grid-gap: 10px;
   }
   .item{
-      background: #fff;
+      background: var(--colorWhite);
       padding: 10px;
       overflow: hidden;
+
   }
   
   .item::before{
-      color:#fff;
+      color:var(--colorWhite);
   }
-  .itemFixed{
+  /* .itemFixed{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -327,12 +332,47 @@ nav{
     min-height: 80vh;
     height: auto;
     z-index: 100;
+  } */
+  /* .itemFixed::before{
+      content: '';
+      width: 100%;
+      height: 100vh;
+      background: red;
+      position: fixed;
+  } */
+
+  .contItem{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    background: #040404de;
+  }
+  .itemFixed{
+    width: 80%;
+    max-width: 900px;
+    max-height: 90vh;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+  }
+  .scrol-no{
+      overflow: hidden;
+  }
+  .scroll-si{
+      overflow-y: scroll;
   }
   @media only screen and (max-width: 750px) {
     .contenedor-items {
         grid-template-columns: 1fr 1fr;
     }
-    .itemFixed{
+    /* .itemFixed{
         position: fixed;
         top: 50%;
         left: 50%;
@@ -342,7 +382,7 @@ nav{
         height: auto;
         z-index: 100;
         overflow: scroll;
-      }
+      } */
   }
   @media only screen and (max-width: 600px) {
     .contenedor-items {
@@ -377,7 +417,7 @@ nav{
     background: #FF9800;
     border-radius: 5px;
     margin-bottom: 10px;
-    color: #fff;
+    color: var(--colorWhite);
     height: 37px;
 }
 .cerrar{
@@ -513,7 +553,7 @@ nav{
     background: #f47c36;
     padding: 10px;
     margin: 5px;
-    color: #fff;
+    color: var(--colorWhite);
     box-sizing: border-box;
  }
  .sucursales > div:nth-child(-n+16):hover{

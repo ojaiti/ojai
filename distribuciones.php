@@ -48,7 +48,7 @@
         <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
         
 
-          <h4 class="center"> Sucursal Nogales</h4>
+          <h4> Sucursal Nogales</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
               <li>Parque Industrial</li>
@@ -60,7 +60,7 @@
                 <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
 
 
-          <h4 class="center"> Sucursal Mexicali</h4>
+          <h4> Sucursal Mexicali</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
               <li>Parque Industrial</li>
@@ -72,7 +72,7 @@
                 <h1 class="center"><i class="fas fa-map-marker-alt"></i></h1>
 
 
-          <h4 class="center"> Sucursal Ensenada</h4>
+          <h4> Sucursal Ensenada</h4>
           <ul>
               <li>Carretera a Sahuaripa km. 4.5</li>
               <li>Parque Industrial</li>
