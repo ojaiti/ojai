@@ -1,21 +1,5 @@
 <?php include 'includes/templates/header.php'?>
-<section class="col-lg-10 mx-auto pt-5 spce-c">
-        <span class="content-titles">
-        <h3 class="title-center txt-center">CERTIFICACIONES</h3>
-        </span>
-</section>
-<div class="spce-c">
-<div class="col-lg-7 mgt-2 spce-a">
-  <div class="spce-cc">
 
-    <img class="certificaciones" src="assets/img/SelloTif.png" alt="tipo inspeccion federal">
-  </div>
- <div class="spce-cc">
-   
-   <img class="certificaciones" src="assets/img/Logo_esr_r.png" alt="empresa socialmente responsable">
-   </div>
-   </div>
-</div>
 
 
 <section class="col-lg-10 mx-auto pt-5 spce-c">
@@ -107,10 +91,9 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
         </span>
 </section>
 
-<div class="row spce-c pt-5 m-3 txt-j">
+<div class="row spce-c pt-2 m-3 txt-j">
     <div class="col-lg-10 spce-c">
         <div class="col-lg-8">
-            <img class="p-alimentos" src="http://www.ojaialimentos.com.mx/img/slide_cont/equipo.jpg" alt="alimentos">
             <p class="pt-3" >
  En Ojai Alimentos buscamos la excelencia en nuestros resultados y forjamos relaciones perdurables basadas en la confianza, 
  al vivir con intensidad nuestros valores essenciales: Honestidad, Responsabilidad, Disciplina, 

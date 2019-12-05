@@ -1,9 +1,7 @@
-
 (function(){
   //este codigo obtiene la altura del header y se lo asigna al elemento
   alturaHeader = document.getElementById("header").clientHeight;
   document.getElementById("relleno").style.height = alturaHeader+"px";
-
  //Animacion para el header al momento de hacer scroll     
 var lastScrollTop = 0;
 var navbar = document.getElementById("navbar");
@@ -12,19 +10,15 @@ var espacio92 = document.querySelector('.espacio92');
 window.addEventListener("scroll", function(){
    var st = window.pageYOffset || document.documentElement.scrollTop; 
    var altura = screen.height;
-   
    /* console.log('sr', st);
    console.log(altura); */
-
    if (st > lastScrollTop && st > 100){
 //obtener la altura de la pantalla
-     
         espacio92.style.display = 'none';
         /* navbar.classList.add("styckyNavDown"); */
    } else {
     espacio92.style.display = 'block';
     navbar.classList.remove("styckyNavDown");
-    
    }
    if(st < 200){
      navbar.position = 'relative';
@@ -33,9 +27,6 @@ window.addEventListener("scroll", function(){
    espacio92.style.display = 'none';
 
 }, false);
-
-
-
 const menu = [
   {nombre: 'Asado de lomo', imagen:'asadodelomo.jpg'},
   {nombre: 'Medallones de mignon de cerdo', imagen:'medallonesdecerdo.jpg'},
@@ -158,12 +149,13 @@ listaPlatillos();
 function listaPlatillos(){
     menu.forEach((element, index) => {
       contenedorItems.innerHTML += `
-      <div class="item">
+      <div class="contentItem" >
+      <div class="item" data-btnId=${index}>
         <div class="headerItem">
           <h5>${element.nombre}</h5>
-          <span class="btnCerrar" data-btnId=${index}>cerrar</span>
+          <span class="btnCerrar" data-btnId=${index} data-id="${index}">cerrar</span>
         </div>
-        <div class="flex-horizontal">
+        <div>
             <img class="p-alimentos" data-id="${index}" src="assets/img/recetas/${element.imagen}" alt="genetica">
         <div class="contentDesPrep descripcion" >
         <div>
@@ -172,87 +164,83 @@ function listaPlatillos(){
         </div>
         <div class="contentPreparacion">
           <h5>Preparacion</h5>
-          <div class="preparacion">
+          <div class="preparacion" data-id="${index}">
           </div>
         </div>
         </div>
       </div>
+      </div>
           `;
-          
-
-      
-      
-          
           
     });
     ingredientes.forEach((ele, index)=>{
-
       ele.ingre.forEach(ingrediente =>{
-        
-          document.querySelectorAll('.parrafo')[index].innerHTML += `<span class="item1">${ingrediente}</span>`;
-
-        
+          document.querySelectorAll('.parrafo')[index].innerHTML += `<i class="item1">${ingrediente}</i>`;
       })
     })
     preparacion.forEach((ele, index)=>{
         document.querySelectorAll('.preparacion')[index].innerHTML += `<p>${ele.prep}</p>`;/*  preparacion */
     })
     
-    /* let parrafos = document.querySelectorAll('.descripcion');
-    parrafos.forEach(ele =>{
-      ele.classList.add('ocultar');
-    }); */
 } /* Fin funcion listarPlatillos */
 
 
-let items = document.querySelectorAll('.item');
+var items = document.querySelectorAll('.item');
+
+
 items.forEach(item => {
   item.addEventListener('click', function(e){
+    document.getElementsByTagName("html")[0].classList.add("scrol-no");
+
     let elemento = e.target;
     let idElemento = e.target.dataset.id;
-    console.log('tt',e.target.dataset.id)
-    if(elemento.nodeName == 'IMG'){
-     document.querySelectorAll('.descripcion')[idElemento].classList.toggle('ocultar');
-     item.classList.add('itemFixed');
-     document.querySelectorAll('.btnCerrar')[idElemento].classList.toggle('cerrar');
-     document.querySelectorAll('.preparacion')[idElemento].classList.add('mostrar');
-     document.querySelectorAll('.p-alimentos')[idElemento].classList.add('imgScala');
-    }
 
+    var descripcion = document.querySelectorAll('.descripcion');
+     var btnCerrar = document.querySelectorAll('.btnCerrar');
+     var preparacion = document.querySelectorAll('.preparacion');
+     var palimentos = document.querySelectorAll('.p-alimentos');
     
-    /*  let parrafos = document.querySelectorAll('.parrafo');
-    parrafos.forEach(ele =>{
-      ele.classList.remove('ocultar');
-    }); */
+    if(elemento.nodeName == 'IMG' ){
+      this.parentElement.classList.add("contItem");
+      this.classList.add("scroll-si");
+      item.classList.add('itemFixed');
+      descripcion[idElemento].classList.add('ocultar');
+      btnCerrar[idElemento].classList.add('cerrar');
+      preparacion[idElemento].classList.add('mostrar');
+      palimentos[idElemento].classList.add('imgScala');
+    }
+    var open = 1;
+     if(elemento.nodeName == "SPAN"){
+      document.getElementsByTagName("html")[0].classList.remove("scrol-no");
+      this.parentElement.classList.remove("contItem");
+      this.classList.remove("scroll-si");
+      item.classList.remove('itemFixed');
+      open = 0;
+      descripcion[idElemento].classList.remove('ocultar');
+      preparacion[idElemento].classList.remove('mostrar');
+      palimentos[idElemento].classList.remove('imgScala');
+      btnCerrar[idElemento].classList.remove('cerrar');
+
+      
+    }
+    if(open == 1){
+      document.get
+    }else{
+      console.log("Hola 1 ");
+    }
   });
 });
 }
-let btnsCerrar = document.querySelectorAll('.btnCerrar');
-btnsCerrar.forEach(spn=>{
-  spn.addEventListener('click', function(e){
-    let btnId = e.target.dataset.btnid;
-document.querySelectorAll('.item')[btnId].classList.remove('itemFixed');
-document.querySelectorAll('.descripcion')[btnId].classList.remove('ocultar');/*  */
-document.querySelectorAll('.btnCerrar')[btnId].classList.remove('cerrar');/*  */
-document.querySelectorAll('.p-alimentos')[btnId].classList.remove('imgScala');
-
-
-  });
-});
-
 
 /* Menu hamburguesa */
 let btnCustom = document.getElementById('btnCustom').addEventListener('click', function(){
-  
   let bars = document.querySelectorAll('.b-bar');
   bars.forEach(element =>{
     element.classList.toggle('activo');
   });
 });
 
-
 if(document.getElementById("form")){
-
 document.getElementById("form").addEventListener('submit', function(e){
   e.preventDefault();
  /*  console.log('Hola'); */
