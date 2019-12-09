@@ -1,6 +1,24 @@
 (function(){
   //este codigo obtiene la altura del header y se lo asigna al elemento
   alturaHeader = document.getElementById("header").clientHeight;
+  
+ 
+  if(document.querySelector('.content-timeline')){
+    alturaTimeline = document.querySelector('.content-timeline').clientHeight;
+
+    setHight();
+
+    function setHight(){
+      document.querySelector(".line-center").style.height = alturaTimeline+"px";
+    }
+
+    var body = document.getElementsByTagName("BODY")[0].onresize = function() {
+      console.log('boy');
+      setHight();
+    };
+  }
+  
+  
   document.getElementById("relleno").style.height = alturaHeader+"px";
  //Animacion para el header al momento de hacer scroll     
 var lastScrollTop = 0;
