@@ -1,20 +1,41 @@
 (function(){
   //este codigo obtiene la altura del header y se lo asigna al elemento
+
+  apareceScroll();
+  function apareceScroll(){
+    var html = document.getElementsByTagName("html")[0];
+
+    var elemtoAparece = document.getElementsByClassName("aparece");
+    document.addEventListener("scroll", function(){
+      var topVent = html.scrollTop;
+      for(i=0; i < elemtoAparece.length; i++){
+        var topElemAparece = elemtoAparece[i].offsetTop;
+        if(topVent > topElemAparece - 500){
+          elemtoAparece[i].classList.add("animAparece")
+        }
+      }
+
+    })
+  }
+
+
+
   alturaHeader = document.getElementById("header").clientHeight;
   
  
   if(document.querySelector('.content-timeline')){
-    alturaTimeline = document.querySelector('.content-timeline').clientHeight;
 
-    setHight();
 
-    function setHight(){
-      document.querySelector(".line-center").style.height = alturaTimeline+"px";
-    }
+   
 
     var body = document.getElementsByTagName("BODY")[0].onresize = function() {
       console.log('boy');
-      setHight();
+      alturaTimeline = document.querySelector('.content-timeline').clientHeight;
+      console.log(alturaTimeline);
+      /* function setHight(){
+        document.querySelector(".line-center").style.height = alturaTimeline+"px";
+      }
+      setHight(); */
     };
   }
   
