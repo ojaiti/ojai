@@ -9,3 +9,12 @@ console.log("year",d.getFullYear());
 
 var fecha =  dias[d.getDay()] +' ' + d.getDate()+' '+ meses[d.getMonth()] + ' del ' +d.getFullYear();
 document.getElementById("fecha").innerHTML = fecha; */
+
+function recursiva(num){ 
+    num -= 1 
+    if (num > 0 ){
+         recursiva(num)
+    }else{
+        console.log("fin de la funcion")
+    }
+}

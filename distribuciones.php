@@ -206,6 +206,6 @@
 
     </div> 
  </div><!-- Fin contente distribuciones -->
-      
+ <div id="mapid"></div>
 
 <?php include 'includes/templates/footer.php'?>

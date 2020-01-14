@@ -573,8 +573,14 @@ nav{
   } */
 
   .juntos{
-      text-align: center;
+      /* text-align: center; */
       padding: 10px;
+  }
+  
+  .juntos p i{
+      font-size: 30px;
+      color: #607D8B;
+      margin: 4px;
   }
  footer{
     width: 100%;

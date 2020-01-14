@@ -1,24 +1,52 @@
 (function(){
+
+function getOffset( el ) {
+    var _x = 0;
+    var _y = 0;
+    while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
+        _x += el.offsetLeft - el.scrollLeft;
+        _y += el.offsetTop - el.scrollTop;
+        el = el.offsetParent;
+    }
+    return { top: _y, left: _x };
+}
+ 
+var elemento = document.querySelector('.content-titles');
+
+var x = getOffset(elemento).left;
+var y = getOffset(elemento).top;
+console.log(x,y)
+
+
+
+
   //este codigo obtiene la altura del header y se lo asigna al elemento
 
-  apareceScroll();
-  function apareceScroll(){
-    var html = document.getElementsByTagName("html")[0];
 
+
+
+
+
+  apareceScroll();
+  var html = document.getElementsByTagName("html")[0];
+
+
+  function apareceScroll(){
+    var anim = 700;
     var elemtoAparece = document.getElementsByClassName("aparece");
     document.addEventListener("scroll", function(){
       var topVent = html.scrollTop;
       for(i=0; i < elemtoAparece.length; i++){
-        var topElemAparece = elemtoAparece[i].offsetTop;
-        if(topVent > topElemAparece - 500){
+        /* var x = getOffset(elemento).left; */
+          var element_y = getOffset(elemtoAparece[i]).top;
+        /* var topElemAparece = elemtoAparece[i].offsetTop; */
+        if(topVent > element_y - anim){
           elemtoAparece[i].classList.add("animAparece")
         }
       }
 
     })
   }
-
-
 
   alturaHeader = document.getElementById("header").clientHeight;
   
@@ -188,7 +216,7 @@ listaPlatillos();
 function listaPlatillos(){
     menu.forEach((element, index) => {
       contenedorItems.innerHTML += `
-      <div class="contentItem" >
+      <div class="contentItem" data-btnId=${index} >
       <div class="item" data-btnId=${index}>
         <div class="headerItem">
           <h5>${element.nombre}</h5>
@@ -225,6 +253,35 @@ function listaPlatillos(){
 
 
 var items = document.querySelectorAll('.item');
+var descripcion = document.querySelectorAll('.descripcion');
+var btnCerrar = document.querySelectorAll('.btnCerrar');
+var preparacionText = document.querySelectorAll('.preparacion');
+var palimentos = document.querySelectorAll('.p-alimentos');
+
+function cambiarAnim(id,valor,elementItem){
+  elementItem.scrollTop = 0; /* Corrige error de desplazamiento hacia arriba */
+  if(valor == 'add'){
+      document.getElementsByTagName("html")[0].classList.add("scrol-no");
+      elementItem.parentElement.classList.add("contItem");
+      elementItem.classList.add("scroll-si");
+      elementItem.classList.add('itemFixed');
+      descripcion[id].classList.add('ocultar');
+      preparacionText[id].classList.add('mostrar');
+      palimentos[id].classList.add('imgScala');
+      btnCerrar[id].classList.add('cerrar');
+  }
+  if(valor == 'remove'){
+      document.getElementsByTagName("html")[0].classList.remove("scrol-no");
+      elementItem.parentElement.classList.remove("contItem");
+      elementItem.classList.remove("scroll-si");
+      elementItem.classList.remove('itemFixed');
+      descripcion[id].classList.remove('ocultar');
+      preparacionText[id].classList.remove('mostrar');
+      palimentos[id].classList.remove('imgScala');
+      btnCerrar[id].classList.remove('cerrar');
+    }
+
+}
 
 
 items.forEach(item => {
@@ -234,43 +291,44 @@ items.forEach(item => {
     let elemento = e.target;
     let idElemento = e.target.dataset.id;
 
-    var descripcion = document.querySelectorAll('.descripcion');
-     var btnCerrar = document.querySelectorAll('.btnCerrar');
-     var preparacion = document.querySelectorAll('.preparacion');
-     var palimentos = document.querySelectorAll('.p-alimentos');
     
+     
     if(elemento.nodeName == 'IMG' ){
-      this.parentElement.classList.add("contItem");
-      this.classList.add("scroll-si");
-      item.classList.add('itemFixed');
-      descripcion[idElemento].classList.add('ocultar');
-      btnCerrar[idElemento].classList.add('cerrar');
-      preparacion[idElemento].classList.add('mostrar');
-      palimentos[idElemento].classList.add('imgScala');
+      cambiarAnim(idElemento,'add',item)
     }
-    var open = 1;
      if(elemento.nodeName == "SPAN"){
-      document.getElementsByTagName("html")[0].classList.remove("scrol-no");
-      this.parentElement.classList.remove("contItem");
-      this.classList.remove("scroll-si");
-      item.classList.remove('itemFixed');
-      open = 0;
-      descripcion[idElemento].classList.remove('ocultar');
-      preparacion[idElemento].classList.remove('mostrar');
-      palimentos[idElemento].classList.remove('imgScala');
-      btnCerrar[idElemento].classList.remove('cerrar');
-
-      
-    }
-    if(open == 1){
-      document.get
-    }else{
-      console.log("Hola 1 ");
+      cambiarAnim(idElemento,'remove',item)
     }
   });
 });
 }
+let contentItem = document.querySelectorAll('.contentItem');
+    if(contentItem){
+            window.addEventListener('click', function(e){
+              contentItem.forEach(element => {
+                if(e.target == element && element.classList.contains("contItem")){
+                  var valor = e.target.dataset.btnid
 
+                  
+                 let items = document.querySelectorAll('.item');
+                 items[valor].classList.remove('itemFixed');
+                 items[valor].parentElement.classList.remove("contItem");
+                 items[valor].classList.remove("scroll-si");
+                 document.getElementsByTagName("html")[0].classList.remove("scrol-no");
+
+                 descripcion[valor].classList.add('ocultar');
+                 descripcion[valor].classList.remove('ocultar');
+                  preparacionText[valor].classList.remove('mostrar');
+                  palimentos[valor].classList.remove('imgScala');
+                  btnCerrar[valor].classList.remove('cerrar');
+
+                  cambiarAnim(valor,'remove',items[valor])
+                }
+              });
+            });
+        }
+
+    
 /* Menu hamburguesa */
 let btnCustom = document.getElementById('btnCustom').addEventListener('click', function(){
   let bars = document.querySelectorAll('.b-bar');
@@ -301,32 +359,34 @@ document.getElementById("form").addEventListener('submit', function(e){
    
    //Enviar los datos por Ajax
 
-  let datos = new FormData();
-  datos.append("nombre", nombre.value);
-  datos.append("correo", correo.value);
-  datos.append("tel", tel.value);
-  datos.append("msj", mensaje.value);
+      let datos = new FormData();
+      datos.append("nombre", nombre.value);
+      datos.append("correo", correo.value);
+      datos.append("tel", tel.value);
+      datos.append("msj", mensaje.value);
 
-  var xhr = new XMLHttpRequest();
-  xhr.open("POST", "email/enviar.php", true);
-  xhr.onload = function(e){
-    if(xhr.status == 200){
-      document.getElementById("form").reset();
-      console.log(xhr.response);
-      
-      swal("Correo enviado correctamente!", {
-        buttons: false,
-        timer: 2000,
-      });
-      
+      var xhr = new XMLHttpRequest();
+      xhr.open("POST", "email/enviar.php", true);
+      xhr.onload = function(e){
+        if(xhr.status == 200){
+          document.getElementById("form").reset();
+          console.log(xhr.response);
+          
+          swal("Correo enviado correctamente!", {
+            buttons: false,
+            timer: 2000,
+          });
+          
+        }
+      }
+      xhr.send(datos);
+
     }
-  }
-  xhr.send(datos);
-
-}
  
 })
 }
+
+
 
 })();
 
