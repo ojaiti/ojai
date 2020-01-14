@@ -68,17 +68,17 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
   <div class="spce-h mgt-2">
                 <div class="fila">
                     <div class="juntos">
-                      <p>Responsabilidad</p>
-                      <p>Honestidad</p>
-                      <p>Lealtad</p>
+                      <p><i class="fas fa-award"></i>Responsabilidad</p>
+                      <p><i class="fas fa-hand-paper"></i>Honestidad</p>
+                      <p><i class="fas fa-handshake"></i>Lealtad</p>
                     </div>
                     <div class="juntos">
-                      <p>Trabajo en equipo</p>
-                      <p>Disciplina</p>
+                      <p><i class="fas fa-users"></i>Trabajo en equipo</p>
+                      <p><i class="fas fa-business-time"></i></i>Disciplina</p>
                     </div>
                       <div class="juntos">
-                        <p>Actitud de servicio</p>
-                        <p>Perseverancia</p>
+                        <p><i class="fas fa-people-carry"></i></i>Actitud de servicio</p>
+                        <p><i class="fas fa-praying-hands"></i></i>Perseverancia</p>
                       </div>
                 </div>
     </div> <!-- fin box -->     
