@@ -96,7 +96,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
         <div class="col-lg-8">
             <p class="pt-3" >
  En Ojai Alimentos buscamos la excelencia en nuestros resultados y forjamos relaciones perdurables basadas en la confianza, 
- al vivir con intensidad nuestros valores essenciales: Honestidad, Responsabilidad, Disciplina, 
+ al vivir con intensidad nuestros valores esenciales: Honestidad, Responsabilidad, Disciplina, 
  Lealtad, Trabajo en equipo, Perseverancia y Actitud de servicio.
 </p>
 <p>

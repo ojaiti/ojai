@@ -1,3 +1,4 @@
+<?php include "includes/funciones/config.php"?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <meta name="author" content="Ojai alimentos">
     <meta name="keyword" content="ojai, huevo, carne, cerdo"> 
     <!-- Para el mapa -->
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" integrity="sha256-afz3aCt3EXZjTcVN6wxBLPnsQN+THVagSA7lG0ftFZg=" crossorigin="anonymous" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" >
@@ -15,10 +16,7 @@
     <title>Ojai Alimentos</title>
 </head>
 <body>
-  <?php
   
-  $name = "SUCURSALES";
-  ?>
   
   <div class="sizeOfHeader" id="relleno"></div>
 <header class="posFix" id="header">
@@ -29,7 +27,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light pt-0" id="navbar">
 <div class="col-lg-10 row mx-auto spce-b" >
 
-  <a class="navbar-brand" aria-label="Ojai" href="index.php">
+  <a class="navbar-brand" aria-label="Ojai" href="<?php echo $menu[0]?>.php">
     <img src="assets/img/logo.png" alt="" width="200">
   </a>
   <button class="navbar-toggler mt-2 btn-custom" id="btnCustom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,19 +43,19 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto center">
       
-     
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" aria-label="Productos" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        PRODUCTOS
+        <a class="nav-link dropdown-toggle upper" href="#" aria-label="Productos" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <?php echo $menu[1]?>
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" aria-label="Huevo" href="huevo.php">HUEVO</a>
-          <a class="dropdown-item" aria-label="Cerdo" href="cerdo.php">CERDO</a>
-          
-          <a class="dropdown-item" aria-label="Camaron" href="camaron.php">CAMARÓN</a>
-
-     
-          
+        <div class="dropdown-menu upper" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item upper" aria-label="<?php echo $menu[2]?>" href="<?php echo $menu[2]?>.php"><?php echo $menu[2]?></a>
+          <a class="dropdown-item upper" aria-label="<?php echo $menu[3]?>" href="<?php echo $menu[3]?>.php"><?php echo $menu[3]?></a>
+          <a class="dropdown-item upper" aria-label="<?php echo $menu[4]?>" href="<?php echo $menu[4]?>.php"><?php echo $menu[4]?></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link upper" href="<?php echo $menu[5]?>.php" role="button" aria-label="<?php echo $menu[5]?>"   aria-expanded="false">
+        <?php echo $menu[5]?>
+        </a>
       </li>
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -69,23 +67,24 @@
           
       </li> -->
       <li class="nav-item dropdown">
-        <a class="nav-link" href="nosotros.php" role="button" aria-label="Nosotros"   aria-expanded="false">
-        NOSOTROS
+        <a class="nav-link upper" href="<?php echo $menu[6]?>.php" role="button" aria-label="<?php echo $menu[6]?>"   aria-expanded="false">
+        <?php echo $menu[6]?>
         </a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link" href="aviso.php" role="button" aria-label="Nosotros"   aria-expanded="false">
-        AVISO DE PRIVACIDAD
+        <a class="nav-link upper" href="<?php echo $menu[7]?>.php" role="button" aria-label="<?php echo $menu[7]?>"   aria-expanded="false">
+        <?php echo $menu[7]?>
+        </a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link upper" href="<?php echo $menu[8]?>.php" role="button" aria-label="<?php echo $menu[8]?>"   aria-expanded="false">
+        <?php echo $menu[8]?>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="distribuciones.php" role="button" aria-label="Distribuciones"   aria-expanded="false">
-        <?php echo $name?>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" aria-label="Contacto" href="bolsa.php">
-        CONTACTO
+        <a class="nav-link upper" aria-label="<?php echo $menu[9]?>" href="<?php echo $menu[9]?>.php">
+        <?php echo $menu[9]?>
         </a>
         <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="bolsa.php">CONTACTO DE VENTAS</a> -->

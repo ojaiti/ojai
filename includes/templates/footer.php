@@ -19,10 +19,9 @@
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Productos</h6>
         <div class="box">
-
-          <p><a href="#!">Huevo</a></p>
-          <p><a href="#!">Cerdo</a></p>
-          <p><a href="#!">Camaron</a></p>
+          <p><a aria-label="Huevo" href="huevo.php">Huevo</a></p>
+          <p><a aria-label="Huevo" href="cerdo.php">Cerdo</a></p>
+          <p><a aria-label="Huevo" href="camaron.php">Camaron</a></p>
           </div>
 
       </div>
