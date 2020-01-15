@@ -5,7 +5,7 @@
 ?>
 <section class="col-lg-10 mx-auto pt-5 spce-c">
         <span class="content-titles">
-        <h3 align="center"  class="title-center"><?php echo $name?></h3>
+        <h3 align="center"  class="title-center">distribuciones</h3>
         </span>
 </section>
 

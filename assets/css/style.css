@@ -256,6 +256,9 @@ h3{
 .content-titles {
     position: relative;
 }
+.content-titles h3{
+    text-transform: capitalize;
+}
 /* animation navbar */
 .styckyNavDown{
     position: fixed;
@@ -606,6 +609,7 @@ nav{
  .grid-sucursales{
      display: grid;
      grid-template-columns: repeat(4, 1fr);
+     width: 70%;
  }
  @media only screen and (max-width: 900px) {
     .grid-sucursales{
@@ -622,6 +626,9 @@ nav{
         grid-template-columns: 1fr;
     }
   }
+.upper{
+    text-transform: uppercase;
+}
 
 
 
@@ -705,6 +712,9 @@ nav{
 }
 .animAparece:nth-child(even){
      transform: translateX(0px);
+ }
+ .producto img{
+     max-width: 100%;
  }
 /* .content-item:nth-child(odd){
     transform: translateX(-200%);
