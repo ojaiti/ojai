@@ -19,9 +19,9 @@
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Productos</h6>
         <div class="box">
-          <p><a aria-label="Huevo" href="huevo.php">Huevo</a></p>
-          <p><a aria-label="Huevo" href="cerdo.php">Cerdo</a></p>
-          <p><a aria-label="Huevo" href="camaron.php">Camaron</a></p>
+          <p><a aria-label=<?php echo $menu[2]?> href=<?php echo $menu[2]?>><?php echo $menu[2]?></a></p>
+          <p><a aria-label=<?php echo $menu[3]?> href=<?php echo $menu[3]?>><?php echo $menu[3]?></a></p>
+          <p><a aria-label=<?php echo $menu[4]?> href=<?php echo $menu[4]?>><?php echo $menu[4]?></a></p>
           </div>
 
       </div>
@@ -61,6 +61,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+   <!-- Mapa -->
 
 
   

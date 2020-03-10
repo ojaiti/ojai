@@ -8,8 +8,7 @@
         <h3 align="center"  class="title-center">distribuciones</h3>
         </span>
 </section>
-
-
+<h3>Mapa</h3>
 <div class="spce-c mgt-5 pdl-3">
     <div class="row grid-sucursales sucursales">
         <!-- Links -->
