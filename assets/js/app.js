@@ -220,7 +220,7 @@ function listaPlatillos(){
       <div class="item" data-btnId=${index}>
         <div class="headerItem">
           <h5>${element.nombre}</h5>
-          <span class="btnCerrar" data-btnId=${index} data-id="${index}">cerrar</span>
+          <span class="btnCerrar" data-btnId=${index} data-id="${index}">x</span>
         </div>
         <div>
             <img class="p-alimentos" data-id="${index}" src="assets/img/recetas/${element.imagen}" alt="genetica">
@@ -386,6 +386,7 @@ document.getElementById("form").addEventListener('submit', function(e){
 })
 }
 
+/* Leadleft */
 
 
 })();
