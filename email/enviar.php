@@ -38,7 +38,7 @@ $mensaje .= "Su telefono es: " .$tel . "\r\n";
 $mensaje .= "Mensaje: el mensaje es para informacion sobre el trabajo \r\n";
 $mensaje .= "Enviado el " . date('d/m/y', time());
 
-$para = 'javierfelixuts@gmail.com';
+$para = 'eric.barcelo@grupoojai.com';
 $asunto = 'Asunto Bolsa de trabajo';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);

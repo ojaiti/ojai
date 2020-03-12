@@ -51,8 +51,8 @@
         <?php echo $menu[1]?>
         </a>
         <div class="dropdown-menu upper" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item upper" aria-label="<?php echo $menu[2]?>" href="<?php echo $menu[2]?>"><?php echo $menu[2]?></a>
-          <a class="dropdown-item upper" aria-label="<?php echo $menu[3]?>" href="<?php echo $menu[3]?>"><?php echo $menu[3]?></a>
+          <a class="dropdown-item upper" aria-label="<?php echo $menu[2]?>" href="<?php echo $menu[2]?>"> <i class="icon huevo fas fa-egg"></i><?php echo $menu[2]?></a>
+          <a class="dropdown-item upper" aria-label="<?php echo $menu[3]?>" href="<?php echo $menu[3]?>"><i class="icon pig fas fa-piggy-bank"></i><?php echo $menu[3]?></a>
           <a class="dropdown-item upper" aria-label="<?php echo $menu[4]?>" href="<?php echo $menu[4]?>"><?php echo $menu[4]?></a>
       </li>
       <li class="nav-item dropdown">
