@@ -2,26 +2,34 @@
 
 
 
-<section class="col-lg-10 mx-auto pt-5 spce-c">
+<section class="col-lg-10 mx-auto pt-2 spce-c m-5">
         <span class="content-titles">
         <h3 class="title-center txt-center">HISTORIA</h3>
         </span>
 </section>
 
-<div class="spce-c">
-<div class="col-lg-7 mgt-2">
-       <p align="justify"> Ojai se fundó en 1979 como una empresa productora de huevo, pertenece a uno de los grupos con más solidez en la industria pecuaria del estado de sonora que desde sus orígenes se ha caracterizado por su orientación a producir alimentos de calidad.
+<div class="spce-c mb-5">
+<div class="col-lg-4 mgt-2">
+<div class="col-lg-10 txt-justify">
+  <p > Ojai se fundó en 1979 como una empresa productora de huevo, pertenece a uno de los grupos con más solidez en la industria pecuaria del estado de sonora que desde sus orígenes se ha caracterizado por su orientación a producir alimentos de calidad.
        </p>
-<p align="justify">       En 1984 la empresa incursionó en la industria porcina como productor de cerdo y a finales de la década de los 90´s se decidió invertir en una planta para sacrificar y procesar cortes de alta calidad.
-</p><p align="justify">
-En el año 2000 la empresa da otro importante paso al adquirir las primeras granjas acuícolas para producir camarón, con lo que se consolidó la tercera línea de productos de la compañía.
-Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón con los más altos estándares de calidad, lo que le ha permitido llegar a una gran parte de la República Mexicana, así como a mercados internacionales en Asia y América.
-</p> </div>
+  <p >       En 1984 la empresa incursionó en la industria porcina como productor de cerdo y a finales de la década de los 90´s se decidió invertir en una planta para sacrificar y procesar cortes de alta calidad.
+</p>
+    <p >
+        En el año 2000 la empresa da otro importante paso al adquirir las primeras granjas acuícolas para producir camarón, con lo que se consolidó la tercera línea de productos de la compañía.
+        Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón con los más altos estándares de calidad, lo que le ha permitido llegar a una gran parte de la República Mexicana, así como a mercados internacionales en Asia y América.
+    </p> 
+    </div>
+</div>
+    <div class="col-lg-4 content-image">
+    <img class="d-block w-100" src="assets/img/historia/gallinas.jpg" alt="Gallina">
+
+    </div>
 </div>
 
 
 
-<div class="spce-c pt-3 m-3">
+<div class="spce-c pt-3 custom-color1">
     <div class="col-lg-7 m-3">
       <div class="grid-2">
 
@@ -36,7 +44,7 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
                   <p>Colocar en el mercado productos alimenticios, garantizando la satisfacción de nuestros clientes, personal y accionistas.</p>
                 </div>
           </div> <!-- Fin box -->
-
+          
           <div class="box box-right box-border">
               <section class="mx-auto pt-3 spce-c">
                   <span class="content-titles">
@@ -45,6 +53,26 @@ Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón c
               </section>
                 <div class="spec-c mgt-2">
                   <p >Ser una empresa de clase mundial que genere valor a su entorno.</p>
+                </div>
+          </div> <!-- fin box -->
+          <div class="box box-right box-border">
+              <section class="mx-auto pt-3 spce-c">
+                  <span class="content-titles">
+                  <h3 class="title-center txt-c">EMPRESA</h3>
+                  </span>
+              </section>
+                <div class="spec-c mgt-2">
+                  <p >Nos comprometemos a brindar un producto de calidad y el mejor precio, para que cada hogar tenga una comida aceptable y de calidad.</p>
+                </div>
+          </div> <!-- fin box -->
+          <div class="box box-right box-border">
+              <section class="mx-auto pt-3 spce-c">
+                  <span class="content-titles">
+                  <h3 class="title-center txt-c">POLÍTICA DE CALIDAD</h3>
+                  </span>
+              </section>
+                <div class="spec-c mgt-2">
+                  <p >En Ojai Alimentos, la meta diaria es ofrecer a nuestros clientes productos con los mas altos estándares de calidad, que logren su satisfacción total, a través del mejoramiento continuo de nuestros procesos y un liderazgo comprometido desde la alta dirección.</p>
                 </div>
           </div> <!-- fin box -->
         </div>

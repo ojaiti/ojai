@@ -1,11 +1,11 @@
 
 
 <!-- Footer -->
-<footer class="bg-orange mt-5">
+<footer class="bg-orange ">
 
 
   <!-- Footer Links -->
-  <div class="container text-center text-md-left mt-5 pd-3">
+  <div class="container text-center text-md-left  pd-3">
     <!-- Grid row -->
     <div class="row mt-3">
       <!-- Grid column -->

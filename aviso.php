@@ -62,21 +62,40 @@ Este aviso de privacidad podrá ser modificado por <b><em>Granjas Ojai, SA de CV
 
 </div>
 </div>
-<section class="col-lg-10 mx-auto pt-5 spce-c">
-        <span class="content-titles">
-        <h3 class="title-center txt-center">CERTIFICACIONES</h3>
-        </span>
-</section>
-<div class="spce-c">
-<div class="col-lg-7 mgt-2 spce-a">
-  <div class="spce-cc">
-
-    <img class="certificaciones" src="assets/img/SelloTif.png" alt="tipo inspeccion federal">
+<div class="bg-color">
+  
+  <section class="col-lg-10 mx-auto pt-5 spce-c">
+    <span class="content-titles">
+      <h3 class="title-center txt-center">CERTIFICACIONES</h3>
+    </span>
+  </section>
+  <div class="spce-c">
+    <div class="col-lg-10 mgt-2 spce-b">
+      <div class="spce-cc">
+        
+        <img class="certificaciones" src="assets/img/SelloTif.png" alt="tipo inspeccion federal">
+      </div>
+      <div class="spce-cc">
+        
+        <img class="certificaciones" src="assets/img/Logo_esr_r.png" alt="empresa socialmente responsable">
+      </div>
+      <div class="spce-cc">
+        
+        <img class="certificaciones" src="assets/img/senasica.png" alt="empresa socialmente responsable">
+      </div>
+      <div class="spce-cc">
+        
+        <img class="certificaciones" src="assets/img/sagarpa.png" alt="empresa socialmente responsable">
+      </div>
+      <div class="spce-cc">
+        
+        <img class="certificaciones" src="assets/img/anetif.png" alt="empresa socialmente responsable">
+      </div>
+      <div class="spce-cc">
+        
+        <img class="certificaciones" src="assets/img/suprema.png" alt="empresa socialmente responsable">
+      </div>
+    </div>
   </div>
- <div class="spce-cc">
-   
-   <img class="certificaciones" src="assets/img/Logo_esr_r.png" alt="empresa socialmente responsable">
-   </div>
-   </div>
 </div>
-<?php include 'includes/templates/footer.php'?>
+  <?php include 'includes/templates/footer.php'?>
