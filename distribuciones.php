@@ -69,17 +69,7 @@
               <li>Tel. (644) 414 1917</li>
          </ul>
         </div>
-        <div  >
-
-
-          <h5> Sucursal Agua prieta</h5>
-          <ul>
-              <li>Dirección: Avenida 20 Entre 7 y 8</li>
-              <li>Agua prieta centro</li>
-              <li>Agua prieta, Sonora.</li>
-              <li><!-- sin telefoono --></li>
-         </ul>
-        </div>
+        
         <div  >
 
 
@@ -173,6 +163,6 @@
 
     </div> 
  </div><!-- Fin contente distribuciones -->
- <div id="mapid"></div>
+ <div id="map" class="map"></div>
 
 <?php include 'includes/templates/footer.php'?>

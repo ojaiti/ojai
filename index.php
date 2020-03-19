@@ -51,7 +51,40 @@
 
   </div> <!-- Fin container -->
 
-
+  <section class="parallax section section-text-light section-parallax section-center mt-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/parallax/parallax-2.jpg">
+					<div class="container">
+						<div class="row counters counters-text-light">
+							<div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
+								<div class="counter">
+									<i class="fas fa-user"></i>
+									<strong data-to="30000" data-append="+">0</strong>
+									<label>Happy Clients</label>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
+								<div class="counter">
+									<i class="fas fa-star"></i>
+									<strong data-to="15">0</strong>
+									<label>Years in Business</label>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 mb-4 mb-sm-0">
+								<div class="counter">
+									<i class="fas fa-coffee"></i>
+									<strong data-to="352">0</strong>
+									<label>Cups of Coffee</label>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3">
+								<div class="counter">
+									<i class="far fa-chart-bar"></i>
+									<strong data-to="178">0</strong>
+									<label>High Score</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 <section class="spce-c pdding-40">
   <span class="content-titles">
     <h3 align="center"  class="title-center">DELICIAS PARA EL HOGAR</h3>

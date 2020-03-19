@@ -1,4 +1,16 @@
 (function(){
+if(document.querySelector('.aviso')){
+
+  document.querySelector('.aviso').classList.add('activo');
+}
+$('body.aviso').removeClass('activo')
+
+$('body.aviso .navegacion-principal li a:contains("aviso")').addClass('active')
+$('body.distribuciones .navegacion-principal li a:contains("distribuciones")').addClass('active')
+$('body.alimentos .navegacion-principal li a:contains("alimentos")').addClass('active')
+$('body.productos .navegacion-principal li a:contains("productos")').addClass('active')
+$('body.nosotros .navegacion-principal li a:contains("nosotros")').addClass('active')
+$('body.contacto .navegacion-principal li a:contains("contacto")').addClass('active')
 
 function getOffset( el ) {
     var _x = 0;
@@ -356,6 +368,8 @@ document.getElementById("form").addEventListener('submit', function(e){
       swal ( "Error!" ,  "Email no valido!" ,  "error" );
     }
     */
+
+
    
    //Enviar los datos por Ajax
 
@@ -386,8 +400,40 @@ document.getElementById("form").addEventListener('submit', function(e){
 })
 }
 
-/* Leadleft */
+  
 
+
+/* Leadleft */
+var mapOptions = {
+  center: [24.02,  -104.65],
+  zoom: 5
+}
+if(document.getElementById("map")){
+
+  var map = L.map('map', mapOptions);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  
+  var ensenada = L.marker([31.87, -116.60]).bindPopup('Ensenada California.').addTo(map),
+    obregon    = L.marker([27.48, -109.93]).bindPopup('Cd Obregon Sonora.').addTo(map),
+    hermosillo    = L.marker([29.10,  -110.97]).bindPopup('Hermosillo Sonora.').addTo(map),
+    mexico    = L.marker([19.49, -99.12]).bindPopup('México DF.').addTo(map),
+    mexicali = L.marker([32.64,  -115.44]).bindPopup('Mexicali').addTo(map),
+    tijuana = L.marker([32.50,  -117.00]).bindPopup('Tijuana').addTo(map),
+    nogales = L.marker([31.30,  -110.94]).bindPopup('Nogales').addTo(map),
+    acapulco = L.marker([16.86,  -99.88]).bindPopup('Acapulco').addTo(map), 
+    cancuin = L.marker([21.17,  -86.84]).bindPopup('Cancun').addTo(map), 
+    tehuacan = L.marker([18.46,  -97.39]).bindPopup('Tehuacan').addTo(map), 
+    mochis = L.marker([25.79,  -108.99]).bindPopup('Mochis').addTo(map), 
+    veracruz = L.marker([19.18,  -96.14]).bindPopup('Veracruz').addTo(map), 
+    culiacan = L.marker([24.80,  -107.43]).bindPopup('Culiacan').addTo(map) 
+   
+    ;
+}
+    
+      
 
 })();
 

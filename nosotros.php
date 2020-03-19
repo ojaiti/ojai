@@ -28,33 +28,34 @@
 </div>
 
 
+<div class="spce-c mb-5">
+<div class="col-lg-4 content-image">
+    <img class="d-block w-100" src="assets/img/historia/mv.jpg" alt="Misión y Vsión">
 
-<div class="spce-c pt-3 custom-color1">
-    <div class="col-lg-7 m-3">
-      <div class="grid-2">
+    </div>
+<div class="col-lg-4 mgt-2">
+<div class="col-lg-10 txt-justify">
+  <section class="mx-auto pt-3 spce-c  mb-5">
+    <span class="content-titles">
+    <h3 class="title-center txt-c">MISIÓN</h3>
+    </span>
+  </section>
+  <p>Colocar en el mercado productos alimenticios, garantizando la satisfacción de nuestros clientes, personal y accionistas.</p>
+  <section class="mx-auto pt-3 spce-c mb-5">
+    <span class="content-titles">
+    <h3 class="title-center txt-c">VISIÓN</h3>
+    </span>
+  </section>
+  <p >Ser una empresa de clase mundial que genere valor a su entorno.</p>
+     
+    </div>
+</div>
+   
+</div>
 
-          <div class="box box-left box-border">
-              <section class="mx-auto pt-3 spce-c">
-                  <span class="content-titles">
-                  <h3 class="title-center txt-c">MISIÓN</h3>
-                  </span>
 
-                </section>
-                <div class="spec-c mgt-2">
-                  <p>Colocar en el mercado productos alimenticios, garantizando la satisfacción de nuestros clientes, personal y accionistas.</p>
-                </div>
-          </div> <!-- Fin box -->
-          
-          <div class="box box-right box-border">
-              <section class="mx-auto pt-3 spce-c">
-                  <span class="content-titles">
-                  <h3 class="title-center txt-c">VISIÓN</h3>
-                  </span>
-              </section>
-                <div class="spec-c mgt-2">
-                  <p >Ser una empresa de clase mundial que genere valor a su entorno.</p>
-                </div>
-          </div> <!-- fin box -->
+
+
           <div class="box box-right box-border">
               <section class="mx-auto pt-3 spce-c">
                   <span class="content-titles">
@@ -95,7 +96,7 @@
   <div class="col-lg-7 mgt-2">
   <div class="spce-h mgt-2">
                 <div class="fila">
-                    <div class="juntos">
+                    <div class="juntos spce-h">
                       <p><i class="fas fa-award"></i>Responsabilidad</p>
                       <p><i class="fas fa-hand-paper"></i>Honestidad</p>
                       <p><i class="fas fa-handshake"></i>Lealtad</p>

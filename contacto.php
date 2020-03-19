@@ -7,13 +7,13 @@
 
 <div class="row spce-c pt-5 m-3 txt-j">
     <div class="col-lg-10 spce-c">
-        <div class="col-lg-8">
+        <div class="col-lg-10">
         <form class="form-horizontal" id="form" action="email/enviar.php" method="post">
     
             <!-- Name input-->
             <div class="form-group">
               <label class="col-md-3 control-label" for="nombre">Nombre:</label>
-              <div class="col-md-9">
+              <div class="col-md-12">
                 <input id="nombre" name="nombre" type="text" placeholder="Escribe tu nombre" class="form-control">
               </div>
             </div>
@@ -21,7 +21,7 @@
             <!-- Email input-->
             <div class="form-group">
               <label class="col-md-3 control-label" for="email">Correo:</label>
-              <div class="col-md-9">
+              <div class="col-md-12">
                 <input id="correo" name="correo" type="email" placeholder="Escribe tu correo" class="form-control">
               </div>
             </div>
@@ -29,7 +29,7 @@
 
             <div class="form-group">
               <label class="col-md-3 control-label" for="tel">Telefono:</label>
-              <div class="col-md-9">
+              <div class="col-md-12">
                 <input id="tel" name="tel" type="number" placeholder="Escribe tu telefono" class="form-control">
               </div>
             </div>
@@ -37,7 +37,7 @@
             <!-- Comentario -->
             <div class="form-group">
               <label class="col-md-3 control-label" for="mensaje">Comentarios</label>
-              <div class="col-md-9">
+              <div class="col-md-12">
                 <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Escribe un breve mensaje..." rows="5"></textarea>
               </div>
             </div>

@@ -21,7 +21,6 @@
         <div class="box">
           <p><a aria-label=<?php echo $menu[2]?> href=<?php echo $menu[2]?>><?php echo $menu[2]?></a></p>
           <p><a aria-label=<?php echo $menu[3]?> href=<?php echo $menu[3]?>><?php echo $menu[3]?></a></p>
-          <p><a aria-label=<?php echo $menu[4]?> href=<?php echo $menu[4]?>><?php echo $menu[4]?></a></p>
           </div>
 
       </div>
@@ -53,7 +52,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3 " style="background-color: #df8d2f; color: #fff">Todos los derechos reservados
-    <a href="#"> Ojai Alimentos S. A. de C. V. 2019 ©</a>
+     <span> Ojai Alimentos S. A. de C. V. 2020 ©</span>
   </div><!-- Copyright -->
 </footer><!-- Footer -->
 <script src="https://kit.fontawesome.com/298bba857e.js"></script>
@@ -61,6 +60,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+<script src="assets/mapa/leaflet.js"></script>
+
 </script>
     <!--Load the API from the specified URL
     * The async attribute allows the browser to render the page while the API loads
