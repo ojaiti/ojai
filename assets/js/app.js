@@ -1,4 +1,73 @@
 (function(){
+  var elemento = '';
+  var posicion = '';
+
+  var elemento2 = '';
+  var posicion2 = '';
+  if(document.getElementById('section-contadores')){
+
+   elemento = document.getElementById('section-contadores');
+   posicion = elemento.getBoundingClientRect();
+
+   elemento2 = document.getElementById('bs4-slide-carousel');
+   posicion2 = elemento2.getBoundingClientRect();
+  
+
+}
+
+
+console.log('posici0on2 ', posicion2)
+
+
+if(document.querySelector('.aviso')){
+
+  document.querySelector('.aviso').classList.add('activo');
+}
+$('body.aviso').removeClass('activo')
+
+$('body.aviso .navegacion-principal li a:contains("aviso")').addClass('active')
+$('body.distribuciones .navegacion-principal li a:contains("distribuciones")').addClass('active')
+$('body.alimentos .navegacion-principal li a:contains("alimentos")').addClass('active')
+$('body.productos .navegacion-principal li a:contains("productos")').addClass('active')
+$('body.nosotros .navegacion-principal li a:contains("nosotros")').addClass('active')
+$('body.contacto .navegacion-principal li a:contains("contacto")').addClass('active')
+
+/* Prueba */
+if(document.querySelector('#section-contadores')){
+
+const contadores = document.querySelectorAll('.cont');
+const speed = 10;
+function accionarContadores(){
+
+contadores.forEach(contador => {
+
+    const updateCount = () => {
+      const target = +contador.getAttribute('data-to');
+      const count = +contador.innerText;
+    /*   const inc = target / speed; */
+      const sum = (target / speed)
+      const inc = sum / 2;
+
+      var valorRound = Math.round(count + inc);
+      if(count < target) {
+        contador.innerText = valorRound;
+        setTimeout(updateCount, 150)
+      }else{
+        count.innerText = target;
+      }
+    }
+    updateCount();
+  });
+}
+
+}
+if(posicion.y < screen.height){
+  console.log(posicion)
+  accionarContadores()
+  console.log('posicion y ',posicion.y)
+  console.log('screen height  ',screen.height)
+}
+  /* Obtener coordenadas */
 
 function getOffset( el ) {
     var _x = 0;
@@ -74,11 +143,22 @@ var lastScrollTop = 0;
 var navbar = document.getElementById("navbar");
 var espacio92 = document.querySelector('.espacio92');
 
+/* posicion contadores */
+
+/* alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height)  */
 window.addEventListener("scroll", function(){
    var st = window.pageYOffset || document.documentElement.scrollTop; 
    var altura = screen.height;
    /* console.log('sr', st);
    console.log(altura); */
+   console.log('st');
+   console.log(st);
+   console.log('posicion')
+   console.log(posicion)
+   if (st > posicion.y - 100){
+     accionarContadores()
+   }
+   
    if (st > lastScrollTop && st > 100){
 //obtener la altura de la pantalla
         espacio92.style.display = 'none';
@@ -356,6 +436,8 @@ document.getElementById("form").addEventListener('submit', function(e){
       swal ( "Error!" ,  "Email no valido!" ,  "error" );
     }
     */
+
+
    
    //Enviar los datos por Ajax
 
@@ -386,8 +468,40 @@ document.getElementById("form").addEventListener('submit', function(e){
 })
 }
 
-/* Leadleft */
+  
 
+
+/* Leadleft */
+var mapOptions = {
+  center: [24.02,  -104.65],
+  zoom: 5
+}
+if(document.getElementById("map")){
+
+  var map = L.map('map', mapOptions);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  
+  var ensenada = L.marker([31.87, -116.60]).bindPopup('Ensenada California.').addTo(map),
+    obregon    = L.marker([27.48, -109.93]).bindPopup('Cd Obregon Sonora.').addTo(map),
+    hermosillo    = L.marker([29.10,  -110.97]).bindPopup('Hermosillo Sonora.').addTo(map),
+    mexico    = L.marker([19.49, -99.12]).bindPopup('México DF.').addTo(map),
+    mexicali = L.marker([32.64,  -115.44]).bindPopup('Mexicali').addTo(map),
+    tijuana = L.marker([32.50,  -117.00]).bindPopup('Tijuana').addTo(map),
+    nogales = L.marker([31.30,  -110.94]).bindPopup('Nogales').addTo(map),
+    acapulco = L.marker([16.86,  -99.88]).bindPopup('Acapulco').addTo(map), 
+    cancuin = L.marker([21.17,  -86.84]).bindPopup('Cancun').addTo(map), 
+    tehuacan = L.marker([18.46,  -97.39]).bindPopup('Tehuacan').addTo(map), 
+    mochis = L.marker([25.79,  -108.99]).bindPopup('Mochis').addTo(map), 
+    veracruz = L.marker([19.18,  -96.14]).bindPopup('Veracruz').addTo(map), 
+    culiacan = L.marker([24.80,  -107.43]).bindPopup('Culiacan').addTo(map) 
+   
+    ;
+}
+    
+      
 
 })();
 

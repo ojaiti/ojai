@@ -9,10 +9,10 @@
 <div class="col-lg-7 mgt-2 interlineado">
        <p align="justify"> De acuerdo a lo Previsto en la Ley Federal de Protección de Datos 
            Personales en posesión de los particulares y demás legislación aplicable, declara 
-           <b><em>Granjas Ojai, SA de CV.</em></b>, ser una empresa legalmente constituida de 
+           <b><em>Ojai Alimentos, SA de CV.</em></b>, ser una empresa legalmente constituida de 
            conformidad con las leyes mexicanas, con domicilio <b><em>en calle Jalisco #519 norte S altos, 
            Col. Zona Norte 1, C.P. 85010, Ciudad Obregón, Sonora</em></b>, de igual manera el titular declara que el presente Aviso le ha sido dado a conocer por el Responsable,  haber leído, entendido y acordado los términos expuestos en este Aviso, por lo que otorga su consentimiento respecto del tratamiento de sus datos personales. En caso de que los datos personales recopilados incluyan datos patrimoniales o financieros, mediante la firma del contrato correspondiente, sea en formato impreso, o utilizando medios electrónicos y sus correspondientes procesos para la formación del consentimiento, se llevarán a cabo actos que constituyen el consentimiento expreso del titular.
-Así mismo se manifiesta por parte de <b><em>Granjas Ojai, SA de CV</em></b>, que la información de nuestros clientes es tratada de forma estrictamente confidencial por lo que al proporcionar sus datos personales, tales como: 
+Así mismo se manifiesta por parte de <b><em>Ojai Alimentos, SA de CV</em></b>, que la información de nuestros clientes es tratada de forma estrictamente confidencial por lo que al proporcionar sus datos personales, tales como: 
 <ul>
  <li>   1. Nombre Completo.</li>
   <li>  2. Dirección. </li>
@@ -52,9 +52,9 @@ valer a través del Área de Privacidad encargada de la seguridad de datos perso
 <p>
 A través de estos canales usted podrá actualizar sus datos y especificar el medio por el cual 
 desea recibir información, ya que en caso de no contar con esta especificación de su parte, 
-<b><em>Granjas Ojai, SA de CV</b></em>, establecerá libremente el canal que considere pertinente 
+<b><em>Ojai Alimentos, SA de CV</b></em>, establecerá libremente el canal que considere pertinente 
 para enviarle información. 
-Este aviso de privacidad podrá ser modificado por <b><em>Granjas Ojai, SA de CV</b></em>,
+Este aviso de privacidad podrá ser modificado por <b><em>Ojai Alimentos, SA de CV</b></em>,
  Dichas modificaciones serán oportunamente informadas a través de correo electrónico, teléfono, o 
  cualquier otro medio de comunicación que la empresa determine para tal efecto.
 
