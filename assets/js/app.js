@@ -1,4 +1,24 @@
 (function(){
+  var elemento = '';
+  var posicion = '';
+
+  var elemento2 = '';
+  var posicion2 = '';
+  if(document.getElementById('section-contadores')){
+
+   elemento = document.getElementById('section-contadores');
+   posicion = elemento.getBoundingClientRect();
+
+   elemento2 = document.getElementById('bs4-slide-carousel');
+   posicion2 = elemento2.getBoundingClientRect();
+  
+
+}
+
+
+console.log('posici0on2 ', posicion2)
+
+
 if(document.querySelector('.aviso')){
 
   document.querySelector('.aviso').classList.add('activo');
@@ -11,6 +31,43 @@ $('body.alimentos .navegacion-principal li a:contains("alimentos")').addClass('a
 $('body.productos .navegacion-principal li a:contains("productos")').addClass('active')
 $('body.nosotros .navegacion-principal li a:contains("nosotros")').addClass('active')
 $('body.contacto .navegacion-principal li a:contains("contacto")').addClass('active')
+
+/* Prueba */
+if(document.querySelector('#section-contadores')){
+
+const contadores = document.querySelectorAll('.cont');
+const speed = 10;
+function accionarContadores(){
+
+contadores.forEach(contador => {
+
+    const updateCount = () => {
+      const target = +contador.getAttribute('data-to');
+      const count = +contador.innerText;
+    /*   const inc = target / speed; */
+      const sum = (target / speed)
+      const inc = sum / 2;
+
+      var valorRound = Math.round(count + inc);
+      if(count < target) {
+        contador.innerText = valorRound;
+        setTimeout(updateCount, 150)
+      }else{
+        count.innerText = target;
+      }
+    }
+    updateCount();
+  });
+}
+
+}
+if(posicion.y < screen.height){
+  console.log(posicion)
+  accionarContadores()
+  console.log('posicion y ',posicion.y)
+  console.log('screen height  ',screen.height)
+}
+  /* Obtener coordenadas */
 
 function getOffset( el ) {
     var _x = 0;
@@ -86,11 +143,22 @@ var lastScrollTop = 0;
 var navbar = document.getElementById("navbar");
 var espacio92 = document.querySelector('.espacio92');
 
+/* posicion contadores */
+
+/* alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height)  */
 window.addEventListener("scroll", function(){
    var st = window.pageYOffset || document.documentElement.scrollTop; 
    var altura = screen.height;
    /* console.log('sr', st);
    console.log(altura); */
+   console.log('st');
+   console.log(st);
+   console.log('posicion')
+   console.log(posicion)
+   if (st > posicion.y - 100){
+     accionarContadores()
+   }
+   
    if (st > lastScrollTop && st > 100){
 //obtener la altura de la pantalla
         espacio92.style.display = 'none';
