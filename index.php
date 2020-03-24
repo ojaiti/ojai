@@ -83,7 +83,7 @@
 								<div class="counter">
                   <strong>+</strong>
 									<i class="fas fa-egg"></i>
-									<strong class="cont" data-to="50">0</strong>
+									<strong class="cont" data-to="40">0</strong>
 									<label>Productos</label>
 								</div>
 							</div>

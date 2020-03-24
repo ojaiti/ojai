@@ -70,14 +70,14 @@ Este aviso de privacidad podrá ser modificado por <b><em>Ojai Alimentos, SA de 
     </span>
   </section>
   <div class="spce-c">
-    <div class="col-lg-10 mgt-2 spce-b">
+    <div class="col-lg-10 mgt-2 spce-c row">
       <div class="spce-cc">
         
-        <img class="certificaciones" src="assets/img/SelloTif.png" alt="tipo inspeccion federal">
+        <img class="certificaciones" src="assets/img/selloTif.png" alt="tipo inspeccion federal">
       </div>
       <div class="spce-cc">
         
-        <img class="certificaciones" src="assets/img/Logo_esr_r.png" alt="empresa socialmente responsable">
+        <img class="certificaciones" src="assets/img/logo_esr_r.png" alt="empresa socialmente responsable">
       </div>
       <div class="spce-cc">
         
