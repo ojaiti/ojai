@@ -674,19 +674,19 @@ nav{
     grid-area: a1;
   }
   .item2 {
-    grid-area: b2;
+    grid-area: b1;
   }
   .item3 {
-    grid-area: a3;
+    grid-area: b3;
   }
   .item4 {
-    grid-area: b4;
+    grid-area: a3;
   }
   .item5 {
     grid-area: a5;
   }
   .item6 {
-    grid-area: b6;
+    grid-area: b5;
   }
   .item7 {
     grid-area: a7;
@@ -704,6 +704,7 @@ nav{
     height: 100%;
     border-radius: 5px;
     z-index: 40;
+    max-width:600px;
   }
 
   .content-item{
@@ -720,14 +721,37 @@ nav{
       background: #50a0d0;
 
   }
+  .mx-img div img{
+      max-width: 580px;
+      margin: auto;
+  }
+  .mx-img div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+  @media only screen and (max-width: 600px) {
+    .ball {
+      display: none;
+    }
+  }
   .content-item:nth-child(odd)  .ball{
     right: -75px;
 
 }
 .content-item:nth-child(even)  .ball{
+    right: -75px;
+    display: none;
+
+}
+/* Editados manualmente */
+.content-item:nth-child(3)  .ball{
     left: -75px;
 
 }
+
 .content-item:nth-child(odd){
     margin-right: 50px;
     margin-top: 50px;
@@ -736,6 +760,19 @@ nav{
 }
 .content-item:nth-child(even){
     margin-left: 50px;
+    margin-top: 50px;
+   transform: translateX(400%);
+   transition: 1s;
+}
+/* Edicion manual */
+.content-item:nth-child(3){
+    margin-left: 50px;
+    margin-top: 50px;
+   transform: translateX(400%);
+   transition: 1s;
+}
+.content-item:nth-child(4){
+    margin-right: 50px;
     margin-top: 50px;
    transform: translateX(400%);
    transition: 1s;
@@ -779,29 +816,29 @@ nav{
     padding-right: 10px
 }
 .huevo{
-    color: #cec2ae;
+    color: #000;
 }
 .pig{
     color: pink;
 }
   /*Leadleft*/
   /* Map */
-  #map{
+#map{
     height: 400px;
     margin-top: 50px;
     position: relative;
   }
  
-  .custom-color1{
+.custom-color1{
       background: #deece9;
   }
-  .active{
+.active{
       color: #df8d2f !important;
       border-bottom: 3px solid;
     font-weight: 600;
   }
   /* Contadores */
-  #section-contadores{
+#section-contadores{
       height: auto;
       min-height: 300px;
       background: #000000;
@@ -810,7 +847,24 @@ nav{
       align-items: center;
       color: #cebfbf;
       overflow: hidden;
+      position: relative;
   }
+#section-contadores img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(0);
+}
   #section-contadores > .container{
       font-size: 20px;
   }
+
+  #section-contadores >.container > .row > div >  .counter{
+    padding: 10px;
+    background: #060404a6;
+    margin: 10px;
+    height: 100px;
+}
+
+  

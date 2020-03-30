@@ -50,46 +50,7 @@
 </div>
 
   </div> <!-- Fin container -->
-
-  <section id="section-contadores" class="parallax section section-text-light section-parallax section-center mt-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/parallax/parallax-2.jpg">
-					<div class="container">
-						<div class="row counters counters-text-light">
-							<div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-								<div class="counter">
-                  <!-- <strong data-to="30000" data-append="+">0</strong> -->
-                  <strong>+</strong>
-									<i class="fas fa-user"></i>
-									<strong class="cont" data-to="800" data-append="+">0</strong>
-									<label>Clientes</label>
-								</div>
-							</div>
-							<div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-								<div class="counter">
-                  <strong>+</strong>
-                  <i class="fas fa-star"></i>
-									<strong class="cont" data-to="15">0</strong>
-									<label>Años en el negocio</label>
-								</div>
-							</div>
-							<div class="col-sm-6 col-lg-3 mb-4 mb-sm-0">
-								<div class="counter">
-                  <strong>+</strong>
-									<i class="fas fa-building"></i>
-									<strong class="cont" data-to="20">0</strong>
-									<label>Sucursales</label>
-								</div>
-							</div>
-							<div class="col-sm-6 col-lg-3">
-								<div class="counter">
-                  <strong>+</strong>
-									<i class="fas fa-egg"></i>
-									<strong class="cont" data-to="40">0</strong>
-									<label>Productos</label>
-								</div>
-							</div>
-						</div>
-					</div>
-        </section>
+  
         <!-- Inicia seccion -->
 <section class="spce-c pdding-40">
   <span class="content-titles">
