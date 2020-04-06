@@ -6,17 +6,18 @@
   var posicion2 = '';
   if(document.getElementById('section-contadores')){
 
-   elemento = document.getElementById('section-contadores');
-   posicion = elemento.getBoundingClientRect();
+   sectionContadores = document.getElementById('section-contadores');
+   posicionSectionContadores = sectionContadores.getBoundingClientRect();
+   var imagenParallax = document.querySelector('.img-parallax');
 
-   elemento2 = document.getElementById('bs4-slide-carousel');
-   posicion2 = elemento2.getBoundingClientRect();
+  /*  elemento2 = document.getElementById('bs4-slide-carousel');
+   posicion2 = elemento2.getBoundingClientRect(); */
   
 
 }
 
 
-console.log('posici0on2 ', posicion2)
+/* console.log('posici0on2 ', posicion2) */
 
 
 if(document.querySelector('.aviso')){
@@ -32,7 +33,8 @@ $('body.productos .navegacion-principal li a:contains("productos")').addClass('a
 $('body.nosotros .navegacion-principal li a:contains("nosotros")').addClass('active')
 $('body.contacto .navegacion-principal li a:contains("contacto")').addClass('active')
 
-/* Prueba */
+/* funcion que acciona los contadores de la seccion distribucion */
+
 if(document.querySelector('#section-contadores')){
 
 const contadores = document.querySelectorAll('.cont');
@@ -61,12 +63,12 @@ contadores.forEach(contador => {
 }
 
 }
-if(posicion.y < screen.height){
+/* if(posicion.y < screen.height){
   console.log(posicion)
-  accionarContadores()
+  
   console.log('posicion y ',posicion.y)
   console.log('screen height  ',screen.height)
-}
+} */
   /* Obtener coordenadas */
 
 function getOffset( el ) {
@@ -84,7 +86,7 @@ var elemento = document.querySelector('.content-titles');
 
 var x = getOffset(elemento).left;
 var y = getOffset(elemento).top;
-console.log(x,y)
+/* console.log(x,y) */
 
 
 
@@ -118,23 +120,7 @@ console.log(x,y)
   }
 
   alturaHeader = document.getElementById("header").clientHeight;
-  
  
-  if(document.querySelector('.content-timeline')){
-
-
-   
-
-    var body = document.getElementsByTagName("BODY")[0].onresize = function() {
-      console.log('boy');
-      alturaTimeline = document.querySelector('.content-timeline').clientHeight;
-      console.log(alturaTimeline);
-      /* function setHight(){
-        document.querySelector(".line-center").style.height = alturaTimeline+"px";
-      }
-      setHight(); */
-    };
-  }
   
   
   document.getElementById("relleno").style.height = alturaHeader+"px";
@@ -146,19 +132,29 @@ var espacio92 = document.querySelector('.espacio92');
 /* posicion contadores */
 
 /* alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height)  */
+/* Evento scroll */
 window.addEventListener("scroll", function(){
    var st = window.pageYOffset || document.documentElement.scrollTop; 
    var altura = screen.height;
-   /* console.log('sr', st);
-   console.log(altura); */
-   console.log('st');
-   console.log(st);
-   console.log('posicion')
-   console.log(posicion)
-   if (st > posicion.y - 100){
-     accionarContadores()
-   }
+
+    var subir = ((st - 100 + st) / 2) * -.09;
+    this.console.log("subir")
+    this.console.log(subir)
+    if(document.querySelector('.grid-sucursales')){
+
+      var sucursales = document.querySelector('.grid-sucursales');
+      var posicionSucursales = sucursales.getBoundingClientRect();
+
+      if(st > posicionSucursales.height - 400){
+        accionarContadores()
+        imagenParallax.style.transform = `translateY(${subir}px)`;
+        
+    
+       }
+    
+    }
    
+
    if (st > lastScrollTop && st > 100){
 //obtener la altura de la pantalla
         espacio92.style.display = 'none';

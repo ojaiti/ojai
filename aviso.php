@@ -73,7 +73,7 @@ Este aviso de privacidad podrá ser modificado por <b><em>Ojai Alimentos, SA de 
     <div class="col-lg-10 mgt-2 spce-c row">
       <div class="spce-cc">
         
-        <img class="certificaciones" src="assets/img/selloTif.png" alt="tipo inspeccion federal">
+        <img class="certificaciones" src="assets/img/SelloTIF.png" alt="tipo inspeccion federal">
       </div>
       <div class="spce-cc">
         

@@ -30,7 +30,7 @@
             <div class="form-group">
               <label class="col-md-3 control-label" for="tel">Telefono:</label>
               <div class="col-md-12">
-                <input id="tel" name="tel" type="number" placeholder="Escribe tu telefono" class="form-control">
+                <input id="tel" name="tel" type="number" min="8" max="11" placeholder="Escribe tu telefono" class="form-control">
               </div>
             </div>
 

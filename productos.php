@@ -14,41 +14,41 @@
     <div class="row grid-sucursales sucursales">
         <!-- Links -->
         <div class="producto">
-         <img src="assets/img/productos/1-min.png" alt="">
+            <img src="assets/img/productos/1-min.png" alt="">
         </div>
         <div class="producto"  >
-        <img src="assets/img/productos/5-min.png" alt="">
+            <img src="assets/img/productos/5-min.png" alt="">
         </div>
         <div class="producto"  >
-        <img src="assets/img/productos/6-min.png" alt="">
+            <img src="assets/img/productos/6-min.png" alt="">
         </div>
         <div class="producto"  >
-        <img src="assets/img/productos/8-min.png" alt="">
+            <img src="assets/img/productos/16-min.png" alt="">
+              
+        </div>
+        
+        
+        <div class="producto"  >
+            <img src="assets/img/productos/10-min.png" alt=""> 
+        </div>
+        <div class="producto"  >
+            <img src="assets/img/productos/11-min.png" alt="">
         </div>
         
         <div class="producto"  >
-        <img src="assets/img/productos/10-min.png" alt=""> 
+            <img src="assets/img/productos/14-min.png" alt="">
         </div>
         <div class="producto"  >
-        <img src="assets/img/productos/11-min.png" alt="">
+            <img src="assets/img/productos/15-min.png" alt="">
         </div>
         <div class="producto"  >
-        <img src="assets/img/productos/12-min.png" alt="">
+            <img src="assets/img/productos/8-min.png" alt="">
         </div>
         <div class="producto"  >
-        <img src="assets/img/productos/13-min.png" alt="">
+            <img src="assets/img/productos/12-min.png" alt="">
         </div>
         <div class="producto"  >
-        <img src="assets/img/productos/14-min.png" alt="">
-        </div>
-        <div class="producto"  >
-        <img src="assets/img/productos/15-min.png" alt="">
-               
-               
-        </div>
-        <div class="producto"  >
-        <img src="assets/img/productos/16-min.png" alt="">
-              
+            <img src="assets/img/productos/13-min.png" alt="">
         </div>
       
         

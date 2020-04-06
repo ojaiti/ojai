@@ -7,19 +7,19 @@
 
 <div class="content-timeline">
     <div class="line-center"></div>
-    <div class="wrapper">
+    <div class="wrapper  mx-img">
         <div class="content-item item1  animAparece">
-            <div class="item  item-card">
-                <h2>Planta</h2>
-                <p>En Ojai Alimentos contamos con la infraestructura necesaria para producir el alimento balanceado utilizado en nuestras granjas de cerdo y aves. Para ello contamos con tres plantas localizadas en puntos estratégicos para abastecer nuestras operaciones. En estas unidades se lleva a cabo el proceso desde de molienda del grano y el mezclado de los ingredientes con estrictos controles de que nos permiten producir un alimento final de gran calidad.</p>
-            <p> Dos de nuestras plantas se encuentran en el estado de Sonora y una más en el estado de Sinaloa, en conjunto tienen una capacidad de producción mensual de 14,000 toneladas de alimentos balanceados así como las instalaciones necesarias para almacenar 15,000 toneladas de grano.</p>
-            </div>
+        <div class="item  item-card">
+            <h2>Granjas de Postura</h2>
+            <p>OJAI Alimentos cuenta con 17 granjas de postura comercial, aquí es donde tenemos a nuestras aves en edad productiva que producen huevo blanco para plato, las cuales están ubicadas principalmente en el valle del yaqui muy cerca de Cd. Obregón donde tenemos el 55% de nuestra producción con 1’077,560 aves, además de nuestras granjas en Hermosillo, donde tenemos el 13% de la producción gracias a 258,000 aves y 634,980 aves en Los Mochis, que representan el 32 % de nuestra producción total.</p>
+        </div>
             <div class="ball"></div>
         </div>
         <div class="content-item item2 aparece">
-            <div class="item  item-card">
+            <div class="item  item-card ">
                 <h2>Image</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, rem?</p>
+                <img src="assets/img/historia/postura.jpg" alt="">
             </div>
             <div class="ball"></div>
 
@@ -37,14 +37,14 @@
             <div class="item  item-card">
             <h2>Image</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, rem?</p>
+                <img src="assets/img/historia/crianza.jpg" alt="">
             </div>
             <div class="ball"></div>
 
         </div>
         <div class="content-item item5 aparece">
             <div class="item  item-card">
-            <h2>Granjas de postura</h2>
-                <p>OJAI Alimentos cuenta con 17 granjas de postura comercial, aquí es donde tenemos a nuestras aves en edad productiva que producen huevo blanco para plato, las cuales están ubicadas principalmente en el valle del yaqui muy cerca de Cd. Obregón donde tenemos el 55% de nuestra producción con 1’077,560 aves, además de nuestras granjas en Hermosillo, donde tenemos el 13% de la producción gracias a 258,000 aves y 634,980 aves en Los Mochis, que representan el 32 % de nuestra producción total.</p>
+            <h2>Capacidad</h2>
                 <p>Contamos con capacidad para albergar 1’970,540 aves que nos permiten tener una producción anual de 31, 000 toneladas de huevo. Es de suma importancia reiterar que el 100% de nuestras granjas tienen la certificación por parte de SAGARPA de libres enfermedades exóticas como influenza aviar, Newcastle y salmonella. A demás, toda la producción de huevo en nuestra región cuenta con reconocimiento de libre de enfermedades exóticas de parte de USDA, por lo que estamos certificados para exportar huevo para plato a EEUU.</p>
             </div>
             <div class="ball"></div>

@@ -37,6 +37,7 @@ $mensaje .= "Su telefono es: " .$tel . "\r\n";
 /* $mensaje .= "Mensaje: " . $_POST['mensaje'] . "\r\n"; */
 $mensaje .= "Mensaje: el mensaje es para informacion sobre el trabajo \r\n";
 $mensaje .= "Enviado el " . date('d/m/y', time());
+$mensaje .= $message
 
 $para = 'eric.barcelo@grupoojai.com';
 $asunto = 'Asunto Bolsa de trabajo';
