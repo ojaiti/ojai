@@ -6,8 +6,8 @@
   var posicion2 = '';
   if(document.getElementById('section-contadores')){
 
-   elemento = document.getElementById('section-contadores');
-   posicion = elemento.getBoundingClientRect();
+   sectionContadores = document.getElementById('section-contadores');
+   posicionSectionContadores = sectionContadores.getBoundingClientRect();
    var imagenParallax = document.querySelector('.img-parallax');
 
   /*  elemento2 = document.getElementById('bs4-slide-carousel');
@@ -16,17 +16,7 @@
 
 }
 
-if(document.querySelector('.grid-sucursales')){
 
-  var sucursales = document.querySelector('.grid-sucursales');
-  var posicionSucursales = sucursales.getBoundingClientRect();
-
- /*  elemento2 = document.getElementById('bs4-slide-carousel');
-  posicion2 = elemento2.getBoundingClientRect(); */
-  
-
-
-}
 /* console.log('posici0on2 ', posicion2) */
 
 
@@ -146,21 +136,24 @@ var espacio92 = document.querySelector('.espacio92');
 window.addEventListener("scroll", function(){
    var st = window.pageYOffset || document.documentElement.scrollTop; 
    var altura = screen.height;
-   var posicionSucursales = sucursales.getBoundingClientRect();
-   this.console.log("posiciones sucursales")
-  this.console.log(posicionSucursales)
-  this.console.log("posiciones sucursales")
-  this.console.log(st)
 
     var subir = ((st - 100 + st) / 2) * -.09;
     this.console.log("subir")
     this.console.log(subir)
-   if(st> posicionSucursales.height - 400){
-    accionarContadores()
-    imagenParallax.style.transform = `translateY(${subir}px)`;
-    
+    if(document.querySelector('.grid-sucursales')){
 
-   }
+      var sucursales = document.querySelector('.grid-sucursales');
+      var posicionSucursales = sucursales.getBoundingClientRect();
+
+      if(st > posicionSucursales.height - 400){
+        accionarContadores()
+        imagenParallax.style.transform = `translateY(${subir}px)`;
+        
+    
+       }
+    
+    }
+   
 
    if (st > lastScrollTop && st > 100){
 //obtener la altura de la pantalla

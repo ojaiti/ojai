@@ -165,7 +165,7 @@
  </div><!-- Fin contente distribuciones -->
  <section class="spce-c pdding-40">
   <span class="content-titles">
-    <h3 align="center"  class="title-center">CONTADORES</h3>
+    <h3 align="center"  class="title-center">COMPROMISO</h3>
   </span>
 </section>
   <section id="section-contadores" class="parallax section section-text-light section-parallax section-center mt-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/parallax/parallax-2.jpg">
