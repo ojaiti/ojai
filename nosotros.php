@@ -91,7 +91,7 @@
 
 
 <div class="spce-c">
-  <div class="col-lg-7 mgt-2">
+  <div class="col-lg-8 mgt-2">
   <div class="spce-h mgt-2">
                 <div class="fila">
                     <div class="juntos spce-h">
@@ -119,8 +119,8 @@
 </section>
 
 <div class="row spce-c pt-2 m-3 txt-j">
-    <div class="col-lg-10 spce-c">
-        <div class="col-lg-8">
+    <div class="col-lg-8 spce-c">
+        <div class="col-lg-12">
             <p class="pt-3" >
  En Ojai Alimentos buscamos la excelencia en nuestros resultados y forjamos relaciones perdurables basadas en la confianza, 
  al vivir con intensidad nuestros valores esenciales: Honestidad, Responsabilidad, Disciplina, 
@@ -132,11 +132,11 @@
  de interés: clientes, accionistas, personal y en la comunidad donde nos desarrollamos. 
  </p>
  <p>
- De esta manera podemos asegurar que llevaremos a cabo nuestra Visión y nuestra Misión.
-Sabemos que para lograrlo, cada uno de las personas que trabajamos en la compañía constituye una
- pieza importante que aporta su esfuerzo, energía y pasión para cumplir cabalmente con la 
- responsabilidad que le ha sido asignada, así es nuestro equipo y estamos orgullosos de que 
- basamos el éxito de la empresa en el activo más importante: Nuestra Gente. </p>
+    De esta manera podemos asegurar que llevaremos a cabo nuestra Visión y nuestra Misión.
+    Sabemos que para lograrlo, cada uno de las personas que trabajamos en la compañía constituye una
+    pieza importante que aporta su esfuerzo, energía y pasión para cumplir cabalmente con la 
+    responsabilidad que le ha sido asignada, así es nuestro equipo y estamos orgullosos de que 
+    basamos el éxito de la empresa en el activo más importante: Nuestra Gente. </p>
         </div>
       
     </div>
