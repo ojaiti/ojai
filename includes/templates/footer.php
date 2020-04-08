@@ -5,7 +5,7 @@
 
 
   <!-- Footer Links -->
-  <div class="container text-center text-md-left  pd-3">
+  <div class="container text-center text-md-left  pd-3 footer_color">
     <!-- Grid row -->
     <div class="row mt-3">
       <!-- Grid column -->

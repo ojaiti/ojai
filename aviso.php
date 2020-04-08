@@ -70,30 +70,30 @@ Este aviso de privacidad podrá ser modificado por <b><em>Ojai Alimentos, SA de 
     </span>
   </section>
   <div class="spce-c">
-    <div class="col-lg-10 mgt-2 spce-c row">
+    <div class="col-lg-12 mgt-2 spce-a row">
       <div class="spce-cc">
         
-        <img class="certificaciones" src="assets/img/SelloTIF.png" alt="tipo inspeccion federal">
+        <a href="https://www.gob.mx/senasica/acciones-y-programas/establecimientos-tipo-inspeccion-federal-tif" target="_blank" rel="noopener noreferrer"> <img class="certificaciones" src="assets/img/SelloTIF.png" alt="tipo inspeccion federal"></a>
       </div>
       <div class="spce-cc">
         
-        <img class="certificaciones" src="assets/img/logo_esr_r.png" alt="empresa socialmente responsable">
+        <a href="https://www.cemefi.org/esr/" target="_blank" rel="noopener noreferrer"> <img class="certificaciones" src="assets/img/logo_esr_r.png" alt="empresa socialmente responsable"></a>
       </div>
       <div class="spce-cc">
         
-        <img class="certificaciones" src="assets/img/senasica.png" alt="empresa socialmente responsable">
+        <a href="https://www.gob.mx/senasica/acciones-y-programas/programa-de-sanidad-e-inocuidad-agroalimentaria-194083" target="_blank" rel="noopener noreferrer"> <img class="certificaciones" src="assets/img/senasica.png" alt="empresa socialmente responsable"></a>
       </div>
       <div class="spce-cc">
         
-        <img class="certificaciones" src="assets/img/sagarpa.png" alt="empresa socialmente responsable">
+        <a href="http://www.cedrssa.gob.mx/post_secretarn-a_de_agricultura__ganadern-a__desarrollo_rural__pesca_y_alimentacinin_-_-n-sagarpa-n.htm" target="_blank" rel="noopener noreferrer"> <img class="certificaciones" src="assets/img/sagarpa.png" alt="empresa socialmente responsable"></a>
       </div>
       <div class="spce-cc">
         
-        <img class="certificaciones" src="assets/img/anetif.png" alt="empresa socialmente responsable">
+        <a href="https://www.anetif.org/" target="_blank" rel="noopener noreferrer"> <img class="certificaciones" src="assets/img/anetif.png" alt="empresa socialmente responsable"></a>
       </div>
       <div class="spce-cc">
         
-        <img class="certificaciones" src="assets/img/suprema.png" alt="empresa socialmente responsable">
+        <a href="http://www.mexicocalidadsuprema.org.mx/" target="_blank" rel="noopener noreferrer"> <img class="certificaciones" src="assets/img/suprema.png" alt="empresa socialmente responsable"></a>
       </div>
     </div>
   </div>
