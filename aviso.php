@@ -70,7 +70,7 @@ Este aviso de privacidad podrá ser modificado por <b><em>Ojai Alimentos, SA de 
     </span>
   </section>
   <div class="spce-c">
-    <div class="col-lg-12 mgt-2 spce-a row">
+    <div class="col-lg-12 mgt-2 spce-a row certificaciones">
       <div class="spce-cc">
         
         <a href="https://www.gob.mx/senasica/acciones-y-programas/establecimientos-tipo-inspeccion-federal-tif" target="_blank" rel="noopener noreferrer"> <img class="certificaciones" src="assets/img/SelloTIF.png" alt="tipo inspeccion federal"></a>
