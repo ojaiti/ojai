@@ -4,18 +4,7 @@
 
   var elemento2 = '';
   var posicion2 = '';
-  if(document.getElementById('section-contadores')){
-
-   sectionContadores = document.getElementById('section-contadores');
-   posicionSectionContadores = sectionContadores.getBoundingClientRect();
-   var imagenParallax = document.querySelector('.img-parallax');
-
-  /*  elemento2 = document.getElementById('bs4-slide-carousel');
-   posicion2 = elemento2.getBoundingClientRect(); */
-  
-
-}
-
+ 
 
 /* console.log('posici0on2 ', posicion2) */
 
@@ -35,12 +24,12 @@ $('body.contacto .navegacion-principal li a:contains("contacto")').addClass('act
 
 /* funcion que acciona los contadores de la seccion distribucion */
 
-if(document.querySelector('#section-contadores')){
 
-const contadores = document.querySelectorAll('.cont');
-const speed = 10;
+
+
 function accionarContadores(){
-
+  const contadores = document.querySelectorAll('.cont');
+  const speed = 15;
 contadores.forEach(contador => {
 
     const updateCount = () => {
@@ -53,16 +42,16 @@ contadores.forEach(contador => {
       var valorRound = Math.round(count + inc);
       if(count < target) {
         contador.innerText = valorRound;
-        setTimeout(updateCount, 150)
+        setTimeout(updateCount, 300)
       }else{
-        count.innerText = target;
+        contador.innerText = target;
       }
     }
     updateCount();
   });
 }
 
-}
+
 /* if(posicion.y < screen.height){
   console.log(posicion)
   
@@ -89,25 +78,27 @@ var y = getOffset(elemento).top;
 /* console.log(x,y) */
 
 
-
-
   //este codigo obtiene la altura del header y se lo asigna al elemento
 
 
+ var alturaHeader = document.getElementById("header").clientHeight;
+ window.scrollTo(0,-alturaHeader);
 
+ var html = document.getElementsByTagName("html")[0];
 
-
-
+ if(document.getElementsByClassName("aparece")){
   apareceScroll();
-  var html = document.getElementsByTagName("html")[0];
+
+ }
 
 
   function apareceScroll(){
     var anim = 700;
+    
     var elemtoAparece = document.getElementsByClassName("aparece");
     document.addEventListener("scroll", function(){
       var topVent = html.scrollTop;
-      for(i=0; i < elemtoAparece.length; i++){
+      for(var i=0; i < elemtoAparece.length; i++){
         /* var x = getOffset(elemento).left; */
           var element_y = getOffset(elemtoAparece[i]).top;
         /* var topElemAparece = elemtoAparece[i].offsetTop; */
@@ -119,7 +110,6 @@ var y = getOffset(elemento).top;
     })
   }
 
-  alturaHeader = document.getElementById("header").clientHeight;
  
   
   
@@ -137,24 +127,19 @@ window.addEventListener("scroll", function(){
    var st = window.pageYOffset || document.documentElement.scrollTop; 
    var altura = screen.height;
 
-    var subir = ((st - 100 + st) / 2) * -.09;
-    this.console.log("subir")
-    this.console.log(subir)
+
     if(document.querySelector('.grid-sucursales')){
 
       var sucursales = document.querySelector('.grid-sucursales');
       var posicionSucursales = sucursales.getBoundingClientRect();
 
-      if(st > posicionSucursales.height - 400){
+      if(st > posicionSucursales.height - 400 && document.querySelector('#section-contadores')){
         accionarContadores()
-        imagenParallax.style.transform = `translateY(${subir}px)`;
-        
     
        }
     
     }
    
-
    if (st > lastScrollTop && st > 100){
 //obtener la altura de la pantalla
         espacio92.style.display = 'none';

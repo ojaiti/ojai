@@ -21,7 +21,7 @@
               <div class="form-group col-md-6">
                 <label class="col-md-3 control-label" for="email">Correo:</label>
                 <div class="col-md-12">
-                  <input id="correo" name="correo" type="email" placeholder="xxxxx@mail.com" class="form-control">
+                  <input id="correo" name="correo" type="text" placeholder="xxxxx@mail.com" class="form-control">
                 </div>
               </div>
 
@@ -31,7 +31,7 @@
             <div class="form-group">
               <label class="col-md-3 control-label" for="tel">Telefono:</label>
               <div class="col-md-12">
-                <input id="tel" name="tel" type="number" min="8" max="11" placeholder="xxxx-xx-xx-xx" class="form-control">
+                <input id="tel" name="tel" type="text"  placeholder="xxxx-xx-xx-xx" class="form-control">
               </div>
             </div>
 
@@ -39,7 +39,7 @@
             <div class="form-group">
               <label class="col-md-3 control-label" for="mensaje">Comentarios</label>
               <div class="col-md-12">
-                <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Escribe un breve mensaje..." rows="5"></textarea>
+                <textarea class="form-control" id="mensaje" name="mensaje" type="text" placeholder="Escribe un breve mensaje..." rows="5"></textarea>
               </div>
             </div>
     
@@ -55,7 +55,7 @@
       
     </div>
     <div class="col-lg-6">
-      <div class="col-md-8 .contacto-descripcion">
+      <div class="col-md-8 contacto-descripcion">
         <h4>  Nuestras <b>Oficinas</b></h4>
           <ul class="detalles">
             <li><i class="fas fa-map-marker-alt"></i><b>Direccion:</b> Jalisco Norte 519-S Altos entre Yaqui y Mayo</li>

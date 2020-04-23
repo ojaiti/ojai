@@ -68,6 +68,7 @@ $names = explode('/',$url);
       <li class="nav-item dropdown">
         <a class="nav-link upper" href="<?php echo $menu[5]?>" role="button" aria-label="<?php echo $menu[5]?>"   aria-expanded="false">
         <?php echo $menu[5]?>
+        
         </a>
       </li>
       <!-- <li class="nav-item dropdown">

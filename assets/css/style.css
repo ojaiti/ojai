@@ -122,7 +122,7 @@ h3{
 .title-center::before{
     content: '';
     position: absolute;
-    width: 100%;
+    width: 100px;
     bottom: -5px;
     height: 5px;
     background: var(--seColor);
@@ -271,6 +271,8 @@ h3{
 }
 .content-titles h3{
     text-transform: capitalize;
+    display: flex;
+    justify-content: center;
 }
 /* animation navbar */
 .styckyNavDown{
@@ -401,7 +403,7 @@ nav{
     width: 100%;
     height: 100vh;
     transform: translate(-50%, -50%);
-    z-index: 100;
+    z-index: 1000;
     background: #040404de;
   }
   .itemFixed{
@@ -546,7 +548,7 @@ nav{
     top: 0;
     width: 100%;
     left: 0;
-    z-index: 100;
+    z-index: 1000;
 }
 .sizeOfHeader{
     width: 100%;
@@ -885,5 +887,13 @@ ul.detalles > li > i{
 }
 
 .footer_color{
-    color: #314b67;
+    color: #736f6f;
+}
+.contacto-descripcion > h4:nth-child(n){
+    color: #736f6f;
+}
+
+.certificaciones div a img:nth-child(n):hover{
+    transform: scale(1.1);
+    transition: .5s;
 }

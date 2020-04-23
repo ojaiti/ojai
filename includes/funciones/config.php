@@ -6,7 +6,7 @@
       "huevo",
       "cerdo",
       "camaron",
-      "productos",
+      "presentaciones",
       "aviso",
       "distribuciones",
       "nosotros",
