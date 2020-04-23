@@ -185,7 +185,7 @@
 								<div class="counter">
                   <strong>+</strong>
                   <i class="fas fa-star"></i>
-									<strong class="cont" data-to="15">0</strong>
+									<strong class="cont" data-to="15" >0</strong>
 									<label>Años en el negocio</label>
 								</div>
 							</div>
