@@ -1,0 +1,103 @@
+[
+    {
+        "sucursal" : "Sucursal Tijuana",
+        "icon" : "fas fa-store",
+        "calle" :  "Sebastian Vizcaino ",
+        "colonia" : "Fraccionamiento Garita de Otay",
+        "estado" : "Tijuana, Baja California",
+        "telefono" : "(664) 689 2603"
+
+    },
+    {
+        "sucursal" : "Sucursal Hermosillo",
+        "icon" : "fas fa-store",
+        "calle" :  "Blvd Lazaro Cardenas No. 1072",
+        "colonia" : "Invasión el Mirador",
+        "estado" : "Hermosillo, Sonora.",
+        "telefono" : "251 00 79 y 251 07 90"
+
+    },
+    {
+        "sucursal" : "Sucursal Obregón",
+        "icon" : "fas fa-store",
+        "calle" :  "Campeche No. 625 sur ",
+        "colonia" : "Cajeme",
+        "estado" : "Obregón, Sonora.",
+        "telefono" : "(644) 413428"
+
+    },
+    {
+        "sucursal" : "Sucursal Nogales",
+        "icon" : "fas fa-store",
+        "calle" :  "Av de los Maestros No. 255-PTE ",
+        "colonia" : "Las Torres",
+        "estado" : "Nogales, Sonora.",
+        "telefono" : "Tel. 313 49 90"
+
+    },
+    {
+        "sucursal" : "Sucursal Mexicali",
+        "icon" : "fas fa-store",
+        "calle" :  "Av Mazapil ",
+        "colonia" : "Zacatecas",
+        "estado" : "Mexicali, Sonora.",
+        "telefono" : "(686) 557 0779"
+
+    },
+    {
+        "sucursal" : "Sucursal Ensenada",
+        "icon" : "fas fa-store",
+        "calle" :  "Ensenada Entre Calle Guaymas y Plinta ",
+        "colonia" : "Acapulco",
+        "estado" : "Ensenada, Sonora.",
+        "telefono" : "(644) 414 1917"
+
+    },
+    {
+        "sucursal" : "Sucursal Caborca",
+        "icon" : "fas fa-store",
+        "calle" :  "Calle No. 6 y Avenida I ",
+        "colonia" : "Caborca Centro",
+        "estado" : "Caborca, Sonora.",
+        "telefono" : ""
+
+    },
+    {
+        "sucursal" : "Sucursal Acapulco",
+        "icon" : "fas fa-store",
+        "calle" :  "Avenida Mexico",
+        "colonia" : "Cumbres de Figueroa",
+        "estado" : "Acapulco",
+        "telefono" : "01 744 487 69 28"
+
+    },
+    {
+        "sucursal" : "Sucursal Mochis",
+        "icon" : "fas fa-store",
+        "calle" :  "Aristeo Gonzalez No. 2935 ",
+        "colonia" : "Miguel Hidalgo",
+        "estado" : "Mochis, Sinaloa.",
+        "telefono" : "(668) 812 23 45"
+
+    },
+    {
+        "sucursal" : "Sucursal Culiacán",
+        "icon" : "fas fa-store",
+        "calle" :  "Calle Segunda Bodega 6 Entre Papaya y Chile",
+        "colonia" : "Central de abastos",
+        "estado" : "Culiacán, Sinaloa",
+        "telefono" : "(01) 66 77 18 17 56"
+
+    },
+    {
+        "sucursal" : "Sucursal Tehuacan",
+        "icon" : "fas fa-store",
+        "calle" :  "7 norte No. 621-B Entre Avenida Peñafiel y Calle 8 Oriente ",
+        "colonia" : "Fransisco Sarabia",
+        "estado" : "Tehuacan, Puebla",
+        "telefono" : "(644) 414 9117"
+
+    }
+
+]
+
