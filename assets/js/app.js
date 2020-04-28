@@ -1,22 +1,14 @@
 (function(){
-  var elemento = '';
-  var posicion = '';
 
-  var elemento2 = '';
-  var posicion2 = '';
- 
-
-/* console.log('posici0on2 ', posicion2) */
-
-
-if(document.querySelector('.aviso')){
+/* if(document.querySelector('.aviso')){
 
   document.querySelector('.aviso').classList.add('activo');
 }
-$('body.aviso').removeClass('activo')
+$('body.aviso').removeClass('activo') */
 
+/* Este codigo agrega un la clase active para saber en que seccion de la pagina te encuentras */
 $('body.aviso .navegacion-principal li a:contains("aviso")').addClass('active')
-$('body.distribuciones .navegacion-principal li a:contains("distribuciones")').addClass('active')
+$('body.presentaciones .navegacion-principal li a:contains("presentaciones")').addClass('active')
 $('body.alimentos .navegacion-principal li a:contains("alimentos")').addClass('active')
 $('body.productos .navegacion-principal li a:contains("productos")').addClass('active')
 $('body.nosotros .navegacion-principal li a:contains("nosotros")').addClass('active')
@@ -24,40 +16,30 @@ $('body.contacto .navegacion-principal li a:contains("contacto")').addClass('act
 
 /* funcion que acciona los contadores de la seccion distribucion */
 
-
-
-
 function accionarContadores(){
   const contadores = document.querySelectorAll('.cont');
   const speed = 15;
-contadores.forEach(contador => {
+  contadores.forEach(contador => {
 
-    const updateCount = () => {
-      const target = +contador.getAttribute('data-to');
-      const count = +contador.innerText;
-    /*   const inc = target / speed; */
-      const sum = (target / speed)
-      const inc = sum / 2;
+      const updateCount = () => {
+        const target = +contador.getAttribute('data-to');
+        const count = +contador.innerText;
+      /*   const inc = target / speed; */
+        const sum = (target / speed)
+        const inc = sum / 2;
 
-      var valorRound = Math.round(count + inc);
-      if(count < target) {
-        contador.innerText = valorRound;
-        setTimeout(updateCount, 300)
-      }else{
-        contador.innerText = target;
+        var valorRound = Math.round(count + inc);
+        if(count < target) {
+          contador.innerText = valorRound;
+          setTimeout(updateCount, 300)
+        }else{
+          contador.innerText = target;
+        }
       }
-    }
-    updateCount();
-  });
+      updateCount();
+    });
 }
 
-
-/* if(posicion.y < screen.height){
-  console.log(posicion)
-  
-  console.log('posicion y ',posicion.y)
-  console.log('screen height  ',screen.height)
-} */
   /* Obtener coordenadas */
 
 function getOffset( el ) {
@@ -80,7 +62,6 @@ var y = getOffset(elemento).top;
 
   //este codigo obtiene la altura del header y se lo asigna al elemento
 
-
  var alturaHeader = document.getElementById("header").clientHeight;
  window.scrollTo(0,-alturaHeader);
 
@@ -90,7 +71,6 @@ var y = getOffset(elemento).top;
   apareceScroll();
 
  }
-
 
   function apareceScroll(){
     var anim = 700;
@@ -110,8 +90,6 @@ var y = getOffset(elemento).top;
     })
   }
 
- 
-  
   
   document.getElementById("relleno").style.height = alturaHeader+"px";
  //Animacion para el header al momento de hacer scroll     
@@ -155,6 +133,7 @@ window.addEventListener("scroll", function(){
    espacio92.style.display = 'none';
 
 }, false);
+/* Este contenido alimenta el index en la seccion de recetas */
 const menu = [
   {nombre: 'Asado de lomo', imagen:'asadodelomo.jpg'},
   {nombre: 'Medallones de mignon de cerdo', imagen:'medallonesdecerdo.jpg'},
@@ -166,7 +145,6 @@ const menu = [
   {nombre: 'Huevos al gratin', imagen:'huevosalgratin.jpg'},
   {nombre: 'Medallones a las tres salsas', imagen:'medallonestressalsas.jpg'},
 ];
-
 
 let ingredientes = [
   {ingre: ['600 gr. de lomo de cerdo - ',
@@ -351,9 +329,6 @@ items.forEach(item => {
 
     let elemento = e.target;
     let idElemento = e.target.dataset.id;
-
-    
-     
     if(elemento.nodeName == 'IMG' ){
       cambiarAnim(idElemento,'add',item)
     }
@@ -369,7 +344,6 @@ let contentItem = document.querySelectorAll('.contentItem');
               contentItem.forEach(element => {
                 if(e.target == element && element.classList.contains("contItem")){
                   var valor = e.target.dataset.btnid
-
                   
                  let items = document.querySelectorAll('.item');
                  items[valor].classList.remove('itemFixed');
@@ -417,8 +391,6 @@ document.getElementById("form").addEventListener('submit', function(e){
       swal ( "Error!" ,  "Email no valido!" ,  "error" );
     }
     */
-
-
    
    //Enviar los datos por Ajax
 
@@ -449,8 +421,6 @@ document.getElementById("form").addEventListener('submit', function(e){
 })
 }
 
-  
-
 
 /* Leadleft */
 var mapOptions = {
@@ -473,16 +443,13 @@ if(document.getElementById("map")){
     tijuana = L.marker([32.50,  -117.00]).bindPopup('Tijuana').addTo(map),
     nogales = L.marker([31.30,  -110.94]).bindPopup('Nogales').addTo(map),
     acapulco = L.marker([16.86,  -99.88]).bindPopup('Acapulco').addTo(map), 
-    cancuin = L.marker([21.17,  -86.84]).bindPopup('Cancun').addTo(map), 
     tehuacan = L.marker([18.46,  -97.39]).bindPopup('Tehuacan').addTo(map), 
     mochis = L.marker([25.79,  -108.99]).bindPopup('Mochis').addTo(map), 
     veracruz = L.marker([19.18,  -96.14]).bindPopup('Veracruz').addTo(map), 
-    culiacan = L.marker([24.80,  -107.43]).bindPopup('Culiacan').addTo(map) 
+    culiacan = L.marker([24.80,  -107.43]).bindPopup('Culiacan').addTo(map); 
    
-    ;
-}
     
-      
+}
 
 })();
 
