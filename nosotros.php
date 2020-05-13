@@ -7,66 +7,68 @@
       <h3 class="title-center txt-center">HISTORIA</h3>
    </span>
 </section>
+<div class="col-lg-10 mg-auto">
 <!-- Empieza seccion -->
-<div class="spce-c mb-5">
-   <div class="col-lg-4 mgt-2">
-      <div class="col-lg-10 txt-justify">
-         <p > Ojai se fundó en 1979 como una empresa productora de huevo, pertenece a uno de los grupos con más solidez en la industria pecuaria del estado de sonora que desde sus orígenes se ha caracterizado por su orientación a producir alimentos de calidad.
-         </p>
-         <p >       En 1984 la empresa incursionó en la industria porcina como productor de cerdo y a finales de la década de los 90´s se decidió invertir en una planta para sacrificar y procesar cortes de alta calidad.
-         </p>
-         <p >
-            En el año 2000 la empresa da otro importante paso al adquirir las primeras granjas acuícolas para producir camarón, con lo que se consolidó la tercera línea de productos de la compañía.
-            Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón con los más altos estándares de calidad, lo que le ha permitido llegar a una gran parte de la República Mexicana, así como a mercados internacionales en Asia y América.
-         </p>
+   <div class="spce-c col-lg-12 mb-5 flx-column">
+      <div class="col-lg-6 mgt-2">
+         <div class="col-lg-10 txt-justify">
+            <p > Ojai se fundó en 1979 como una empresa productora de huevo, pertenece a uno de los grupos con más solidez en la industria pecuaria del estado de sonora que desde sus orígenes se ha caracterizado por su orientación a producir alimentos de calidad.
+            </p>
+            <p >       En 1984 la empresa incursionó en la industria porcina como productor de cerdo y a finales de la década de los 90´s se decidió invertir en una planta para sacrificar y procesar cortes de alta calidad.
+            </p>
+            <p >
+               En el año 2000 la empresa da otro importante paso al adquirir las primeras granjas acuícolas para producir camarón, con lo que se consolidó la tercera línea de productos de la compañía.
+               Actualmente Grupo Ojai produce y comercializa huevo, carne de cerdo y camarón con los más altos estándares de calidad, lo que le ha permitido llegar a una gran parte de la República Mexicana, así como a mercados internacionales en Asia y América.
+            </p>
+         </div>
+      </div>
+      <div class="col-lg-6 content-image">
+         <img class="d-block w-100" src="assets/img/historia/gallinas.jpg" alt="Gallina">
       </div>
    </div>
-   <div class="col-lg-4 content-image">
-      <img class="d-block w-100" src="assets/img/historia/gallinas.jpg" alt="Gallina">
-   </div>
-</div>
-<!-- Empieza seccion -->
-<div class="spce-c mb-5">
-   <div class="col-lg-4 content-image">
-      <img class="d-block w-100" src="assets/img/historia/mv.jpg" alt="Misión y Vsión">
-   </div>
-   <div class="col-lg-4 mgt-2">
-      <div class="col-lg-10 txt-justify">
-         <section class="mx-auto pt-3 spce-c  mb-5">
-            <span class="content-titles">
-               <h3 class="title-center txt-c">MISIÓN</h3>
-            </span>
-         </section>
-         <p>Colocar en el mercado productos alimenticios, garantizando la satisfacción de nuestros clientes, personal y accionistas.</p>
-         <section class="mx-auto pt-3 spce-c mb-5">
-            <span class="content-titles">
-               <h3 class="title-center txt-c">VISIÓN</h3>
-            </span>
-         </section>
-         <p >Ser una empresa de clase mundial que genere valor a su entorno.</p>
+   <!-- Empieza seccion -->
+   <div class="spce-c col-lg-12 mb-5 flx-column-reverse">
+      <div class="col-lg-6 content-image">
+         <img class="d-block w-100" src="assets/img/historia/mv.jpg" alt="Misión y Vsión">
+      </div>
+      <div class="col-lg-6 mgt-2">
+         <div class="col-lg-10 txt-justify">
+            <section class="mx-auto pt-3 spce-c  mb-5">
+               <span class="content-titles">
+                  <h3 class="title-center txt-c">MISIÓN</h3>
+               </span>
+            </section>
+            <p>Colocar en el mercado productos alimenticios, garantizando la satisfacción de nuestros clientes, personal y accionistas.</p>
+            <section class="mx-auto pt-3 spce-c mb-5">
+               <span class="content-titles">
+                  <h3 class="title-center txt-c">VISIÓN</h3>
+               </span>
+            </section>
+            <p >Ser una empresa de clase mundial que genere valor a su entorno.</p>
+         </div>
       </div>
    </div>
-</div>
-<!-- Empieza seccion -->
-<div class="spce-c mb-5">
-   <div class="col-lg-4 mgt-2">
-      <div class="col-lg-10 txt-justify">
-         <section class="mx-auto pt-3 spce-c  mb-5">
-            <span class="content-titles">
-               <h3 class="title-center txt-c">EMPRESA</h3>
-            </span>
-         </section>
-         <p >Nos comprometemos a brindar un producto de calidad y el mejor precio, para que cada hogar tenga una comida aceptable y de calidad.</p>
-         <section class="mx-auto pt-3 spce-c mb-5">
-            <span class="content-titles">
-               <h3 class="title-center txt-c">POLÍTICA DE CALIDAD</h3>
-            </span>
-         </section>
-         <p >En Ojai Alimentos, la meta diaria es ofrecer a nuestros clientes productos con los mas altos estándares de calidad, que logren su satisfacción total, a través del mejoramiento continuo de nuestros procesos y un liderazgo comprometido desde la alta dirección.</p>
+   <!-- Empieza seccion -->
+   <div class="spce-c col-lg-12 mb-5 flx-column">
+      <div class="col-lg-6 mgt-2">
+         <div class="col-lg-10 txt-justify">
+            <section class="mx-auto pt-3 spce-c  mb-5">
+               <span class="content-titles">
+                  <h3 class="title-center txt-c">EMPRESA</h3>
+               </span>
+            </section>
+            <p >Nos comprometemos a brindar un producto de calidad y el mejor precio, para que cada hogar tenga una comida aceptable y de calidad.</p>
+            <section class="mx-auto pt-3 spce-c mb-5">
+               <span class="content-titles">
+                  <h3 class="title-center txt-c">POLÍTICA DE CALIDAD</h3>
+               </span>
+            </section>
+            <p >En Ojai Alimentos, la meta diaria es ofrecer a nuestros clientes productos con los mas altos estándares de calidad, que logren su satisfacción total, a través del mejoramiento continuo de nuestros procesos y un liderazgo comprometido desde la alta dirección.</p>
+         </div>
       </div>
-   </div>
-   <div class="col-lg-4 content-image">
-      <img class="d-block w-100" src="assets/img/historia/pc.jpg" alt="Misión y Vsión">
+      <div class="col-lg-6 content-image">
+         <img class="d-block w-100" src="assets/img/historia/pc.jpg" alt="Misión y Vsión">
+      </div>
    </div>
 </div>
 <!-- Fin spec-c -->

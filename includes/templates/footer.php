@@ -51,8 +51,8 @@
   </div><!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3 " style="background-color: #df8d2f; color: #fff">Todos los derechos reservados
-     <span> Ojai Alimentos S. A. de C. V. 2020 ©</span>
+  <div class="footer-copyright text-center py-3 " style="background-color: #df8d2f; color: #fff">Todos los derechos reservados ©
+     <span> Ojai Alimentos S. A. de C. V. 2020 </span>
   </div><!-- Copyright -->
 </footer><!-- Footer -->
 <script src="https://kit.fontawesome.com/298bba857e.js"></script>

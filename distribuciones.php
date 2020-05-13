@@ -4,7 +4,8 @@
 
 ?>
 
-<h1 class="center c-orange mt-4">Distribuciones <i class="fas fa-map-marker-alt red"></i></h1>
+<h1 class="center c-orange mt-4">Nuestras sucursales <i class="fas fa-map-marker-alt red"></i></h1>
+<p>Ojai alimentos cuenta con sucursales a lo largo de la republica mexicana, ofreciendo asi sus productos de alta calidad para que esten al alcance de las familas</p>
 <div class="spce-c mgt-5 pdl-3">
    <div class="row grid-sucursales sucursales">
       <!-- Links -->
