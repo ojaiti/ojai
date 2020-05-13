@@ -1,18 +1,22 @@
 (function(){
-
+  var topMenu = document.querySelector('.top-menu')
 /* if(document.querySelector('.aviso')){
 
   document.querySelector('.aviso').classList.add('activo');
 }
 $('body.aviso').removeClass('activo') */
-
+topMenu.addEventListener('click', function(){
+  window.scrollTo(0, 0);
+})
 /* Este codigo agrega un la clase active para saber en que seccion de la pagina te encuentras */
 $('body.aviso .navegacion-principal li a:contains("aviso")').addClass('active')
+$('body.distribuciones .navegacion-principal li a:contains("distribuciones")').addClass('active')
 $('body.presentaciones .navegacion-principal li a:contains("presentaciones")').addClass('active')
 $('body.alimentos .navegacion-principal li a:contains("alimentos")').addClass('active')
 $('body.productos .navegacion-principal li a:contains("productos")').addClass('active')
 $('body.nosotros .navegacion-principal li a:contains("nosotros")').addClass('active')
 $('body.contacto .navegacion-principal li a:contains("contacto")').addClass('active')
+
 
 /* funcion que acciona los contadores de la seccion distribucion */
 
@@ -41,6 +45,7 @@ function accionarContadores(){
 }
 
   /* Obtener coordenadas */
+
 
 function getOffset( el ) {
     var _x = 0;
@@ -131,6 +136,13 @@ window.addEventListener("scroll", function(){
    }
    lastScrollTop = st;
    espacio92.style.display = 'none';
+    this.console.log(st)
+   if (st > 800){
+    topMenu.classList.add('show-up')
+   }
+   else{
+    topMenu.classList.remove('show-up')
+   }
 
 }, false);
 /* Este contenido alimenta el index en la seccion de recetas */
@@ -425,7 +437,8 @@ document.getElementById("form").addEventListener('submit', function(e){
 /* Leadleft */
 var mapOptions = {
   center: [24.02,  -104.65],
-  zoom: 5
+  zoom: 5,
+  minZoom:2
 }
 if(document.getElementById("map")){
 
@@ -450,6 +463,10 @@ if(document.getElementById("map")){
    
     
 }
+
+
+
+
 
 })();
 
