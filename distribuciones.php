@@ -5,7 +5,7 @@
 ?>
 
 <h1 class="center c-orange mt-4">Nuestras sucursales <i class="fas fa-map-marker-alt red"></i></h1>
-<p>Ojai alimentos cuenta con sucursales a lo largo de la republica mexicana, ofreciendo asi sus productos de alta calidad para que esten al alcance de las familas</p>
+
 <div class="spce-c mgt-5 pdl-3">
    <div class="row grid-sucursales sucursales">
       <!-- Links -->
@@ -36,9 +36,17 @@
    <span class="content-titles">
       <h3 align="center"  class="title-center">COMPROMISO</h3>
    </span>
+   
 </section>
+<div class="col-lg-12 spce-c">
+   <div class="col-lg-6  mgt-2 mb-2">
+      <p>Ojai alimentos constantemente sigue creciendo y hoy en dia cuenta con sucursales a lo largo de la republica mexicana, ofreciendo así sus productos 
+         de alta calidad, para que esten al alcance de las familias. </p>
+
+   </div>
+</div>
 <section id="section-contadores" class="parallax section section-text-light section-parallax section-center mt-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/parallax/parallax-2.jpg">
-   <img class="img-parallax" src="assets/img/parallax/table-parallax" alt="">
+   <img class="img-parallax" src="assets/img/parallax/bread-parallax" alt="">
    <div class="container">
       <div class="row counters counters-text-light">
          <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">

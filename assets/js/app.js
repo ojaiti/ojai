@@ -79,8 +79,10 @@ var y = getOffset(elemento).top;
 
   function apareceScroll(){
     var anim = 700;
+    opacity: 0;
     
     var elemtoAparece = document.getElementsByClassName("aparece");
+    var balls = document.getElementsByClassName("ball");
     document.addEventListener("scroll", function(){
       var topVent = html.scrollTop;
       for(var i=0; i < elemtoAparece.length; i++){
