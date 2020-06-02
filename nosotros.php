@@ -78,7 +78,7 @@
       <h3 class="title-center txt-c">NUESTROS VALORES</h3>
    </span>
 </section>
-<div class="spce-c">
+<div class="spce-c bg-custom">
    <div class="col-lg-8 mgt-2">
       <div class="spce-h mgt-2">
          <div class="fila">

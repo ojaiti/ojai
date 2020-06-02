@@ -20,7 +20,7 @@
     <div class="col-sm">
     <h5>BUENAS CONDICIONES DE ANIMALES</h5>
     <p> A diferencia de un sistema conevncional, en el sistema libre de jaula, las gallinas pueden caminar libremente por la caseta y usar los nidos para dormir y poner sus huevos
-    .Este sistema ayuda alas gallinas a relajarse, hacer ekercicio y a socializar entre ellas, lo cual asegura la calidad de sus huevos.</p>
+    .Este sistema ayuda alas gallinas a relajarse, hacer ejercicio y a socializar entre ellas, lo cual asegura la calidad de sus huevos.</p>
     </div>
     <div class="col-sm">
     <h5>MAS NUTRITIVOS</h5>
