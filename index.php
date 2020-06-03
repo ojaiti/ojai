@@ -1,7 +1,7 @@
 
 <?php require 'includes/templates/header.php'?>
 
-<div style="widht:100%; margin:0; position:relative">
+<div class="content-images-corousel" style="widht:100%; margin:0; position:relative">
 <div id="bs4-slide-carousel" class="carousel slide" data-ride="carousel" >
   <ol class="carousel-indicators">
     <li data-target="#bs4-slide-carousel" data-slide-to="0" class="active"></li>
@@ -19,7 +19,7 @@
       <!--Captions ending here for slide 1-->  
    </div>
     <div class="carousel-item">
-      <img class="d-inline w-100" src="assets/img/slider/platos.jpg" alt="Slide Two">
+      <img class="d-inline w-100" src="assets/img/slider/platitos.jpg" alt="Slide Two">
       <!--Captions for the slides go here -->
         <!-- <div class="carousel-caption text-warning d-none d-sm-block sombra">
           <h5>Los mejores alimentos para el hogar</h5>
@@ -50,7 +50,60 @@
 </div>
 
   </div> <!-- Fin container -->
-  
+  <!-- Inicia contadores -->
+  <section class="spce-c pdding-40">
+   <span class="content-titles">
+      <h3 align="center"  class="title-center">COMPROMISO</h3>
+   </span>
+   
+</section>
+<div class="col-lg-12 spce-c">
+   <div class="col-lg-6  mgt-2 mb-2">
+      <p>Ojai alimentos constantemente sigue creciendo y hoy en dia cuenta con sucursales a lo largo de la republica mexicana, ofreciendo así sus productos 
+         de alta calidad, para que esten al alcance de las familias. </p>
+
+   </div>
+</div>
+<section id="section-contadores" >
+   <!-- <img class="img-parallax" src="assets/img/parallax/bread-parallax.jpg" alt=""> -->
+   <div class="container">
+      <div class="row counters counters-text-light">
+         <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
+            <div class="counter">
+               <!-- <strong data-to="30000" data-append="+">0</strong> -->
+               <strong>+</strong>
+               <i class="fas fa-user"></i>
+               <strong class="cont" data-to="800" data-append="+">0</strong>
+               <label>Clientes satisfechos</label>
+            </div>
+         </div>
+         <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
+            <div class="counter">
+               <strong>+</strong>
+               <i class="fas fa-star"></i>
+               <strong class="cont" data-to="15" >0</strong>
+               <label>Años en el negocio</label>
+            </div>
+         </div>
+         <div class="col-sm-6 col-lg-3 mb-4 mb-sm-0">
+            <div class="counter">
+               <strong>+</strong>
+               <i class="fas fa-building"></i>
+               <strong class="cont" data-to="20">0</strong>
+               <label>Sucursales</label>
+            </div>
+         </div>
+         <div class="col-sm-6 col-lg-3">
+            <div class="counter">
+               <strong>+</strong>
+               <i class="fas fa-egg"></i>
+               <strong class="cont" data-to="40">0</strong>
+               <label>Productos</label>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
         <!-- Inicia seccion -->
 <section class="spce-c pdding-40">
   <span class="content-titles">
@@ -64,6 +117,11 @@
   </div>
   
 </div>
+
+
+
+
+
 </div> 
 
 
