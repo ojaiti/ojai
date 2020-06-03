@@ -19,7 +19,7 @@
       <!--Captions ending here for slide 1-->  
    </div>
     <div class="carousel-item">
-      <img class="d-inline w-100" src="assets/img/slider/platitos.jpg" alt="Slide Two">
+      <img class="d-inline w-100" src="assets/img/slider/platillos_comida.jpg" alt="Slide Two">
       <!--Captions for the slides go here -->
         <!-- <div class="carousel-caption text-warning d-none d-sm-block sombra">
           <h5>Los mejores alimentos para el hogar</h5>

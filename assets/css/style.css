@@ -1,7 +1,9 @@
 /* Variables */
 :root{
-    --prColor:#df8d2f;
-    --seColor: #f0c23c;
+    /* --prColor:#df8d2f;
+    --seColor: #f0c23c; */
+    --prColor:#ea5008;
+    --seColor: #f99f25;
     --colorWhite: #fff;
     --setHight: 70vh;
 
@@ -555,6 +557,8 @@ nav{
   .footer-copyright{
       display: flex;
       justify-content: space-around;
+      background-color: var(--prColor);
+      color: #fff;
 }
 
 .txt-just{
@@ -921,10 +925,10 @@ ul.detalles > li > i{
 }
 
 .footer_color{
-    color: #736f6f;
+    color: #313131;
 }
 .contacto-descripcion > h4:nth-child(n){
-    color: #736f6f;
+    color: #313131;
 }
 
 .certificaciones div a img:nth-child(n):hover{
