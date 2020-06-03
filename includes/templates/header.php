@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
    <!--  <link rel="stylesheet" type="text/css" href="assets/mapa/leaftlet.css"> -->
-   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css?var=001" />
 
    
    
@@ -41,7 +41,7 @@ $names = explode('/',$url);
    <nav class="navbar navbar-expand-lg navbar-light bg-light pt-0" id="navbar">
       <div class="col-lg-10 row mx-auto spce-b" >
       <a class="navbar-brand" aria-label="Ojai" href="<?php echo $menu[0]?>">
-      <img src="assets/img/logo.png" alt="" width="200">
+      <img src="assets/img/logoOJAIv3.png" alt="" width="200">
       </a>
       <button class="navbar-toggler mt-2 btn-custom" id="btnCustom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <!-- <span class="navbar-toggler-icon"></span> -->

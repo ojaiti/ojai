@@ -53,7 +53,7 @@
   <div class="row-flex">
     <div class="col-lg-8 redes-sociales">
       <hr>
-      <h4>Visita nuestas redes sociales</h4>
+      <h6>REDES SOCIALES</h6>
       <ul>
         <li class=""><i class="fa fa-facebook-square fa-6 rs-icon " aria-hidden="true" ></i> <a href="https://www.facebook.com/OJAIOBREGON" target="_balank" class="ml-4">Ojai Alimentos S.A de C.V</a></li>
         <li class=""><i class="fa fa-facebook-square fa-6 rs-icon" aria-hidden="true"></i> <a href="https://www.facebook.com/OjaiMartMx/" target="_balank" class="ml-4">Ojai Mart</a></li>
@@ -64,7 +64,7 @@
 
   </div>
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3 " style="background-color: #df8d2f; color: #fff">
+  <div class="footer-copyright text-center py-3">
     <p> Todos los derechos reservados ©</p>
      <span> Ojai Alimentos S. A. de C. V. 2020 </span>
   </div><!-- Copyright -->
